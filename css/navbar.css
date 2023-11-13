@@ -150,8 +150,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* font-size: x-large; */
     margin: 5px ;
+    /* margin-right: 20px; */
     color: #333;
     text-decoration: none;
 }
@@ -170,7 +170,7 @@ border-bottom-right-radius: 5px;
 text-decoration: none;
 cursor: pointer;
 }
-
+.
 
 .button:hover {
 transition-duration: 0.4s;
@@ -185,7 +185,11 @@ margin:  5px;
 height: 35px;
 width: 40px;
 }
-
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .mglass {
 /* display: inline-block; */
 font-size: large;
@@ -221,7 +225,7 @@ transition-duration: 0.4s;
 }
 
 .search:focus {
-width: 250px; 
+width: 220px; 
 padding: 0 16px 0 0;
 }
 
@@ -234,7 +238,7 @@ right: 40px;
 padding: 0 0 0 10px;
 }
 .navbar-img{
-    height: 250px;
+    height: 200px;
     transition: 0.5s;
 }
 .navbar-img-text{
@@ -248,12 +252,12 @@ padding: 0 0 0 10px;
     justify-content: center;
     align-items: center;
 }
-/* .fa-solid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
+.nav-img-container{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    width:fit-content ;
+    margin: auto;
+    border-radius: 5px;
+}
 /* searchbar css */
 .search-bar{
     display: flex;
@@ -272,19 +276,48 @@ padding: 0 0 0 10px;
 }
 /* search bar over */
 
-
-
-
+/* popular products */
+.nav-products{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    gap: 5px;
+}
+.nav-products > div{
+    text-align: center;
+    font-weight: 600;
+    font-size: small;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 0px;
+}
+.nav-products p{
+    margin: 0;
+    padding: 5px 0px;
+}
+.nav-products img{
+    width:98%;
+    border-radius: 5px;
+}
+/* /popular products css over/ */
+.search-result{
+    background-color: #F3F3F3;
+    position: absolute;
+    top: 8vh;
+    height: 500px;
+    width: 300px;
+    right: 5vh;
+    opacity: 0.9;
+    visibility: hidden;
+}
 /* ============ mobile view ============ */
 @media (min-width:200px) and (max-width: 769px) {
     .container-fluid {
         display: flex;
-        /* flex-direction: row-reverse; */
-
     }
 	.navbar .nav-item .dropdown-menu{ 
         display: none;
-        padding: 10px;
+        padding: 5px;
      }
 	.navbar .nav-item:hover .nav-link{
          background-color: #d93800;
@@ -310,16 +343,11 @@ padding: 0 0 0 10px;
         font-size: small;
     }
     .search-container {
-        position: relative;
-        display: inline-block;
-        /* margin: 8px 10px 5px 0; */
         height: 35px;
-        /* width: 45px; */
     }
     .navbar a {
         text-decoration: none;
         font-weight: 400;
-        /* font-size: smaller; */
     }
     .dropdown-class > h5 {
         color: #d93800;
@@ -358,11 +386,6 @@ padding: 0 0 0 10px;
     }
     .contact-info{
         margin: 0px;
-        /* font-size: medium; */
-        /* width: 0;
-        padding: 0;
-        height: 0;
-        visibility: hidden; */
     }
     
     .contact-div{
@@ -372,10 +395,8 @@ padding: 0 0 0 10px;
     }
 
     .nav-contact {
-        /* max-width: 1300px; */
         margin: auto;
         width: 100%;
-        /* display: flex; */
         padding:  10px;
         justify-content: space-between;
     }
@@ -388,7 +409,8 @@ padding: 0 0 0 10px;
     }
     .nav-item{
         border-bottom: #B7B7B7 solid 1px;
-        width: 100%;
+        width: 96%;
+        margin: auto;
     }
     .navbar-img{
         height: 150px;
@@ -402,7 +424,6 @@ padding: 0 0 0 10px;
         width: 100%;
     }
     .whatsapp-icon{
-
         visibility: hidden;
         margin: 0px;
         padding: 0px;
@@ -412,6 +433,17 @@ padding: 0 0 0 10px;
     .nav-opt{
         display:flex ;
         flex-direction: column-reverse;
+    }
+    .nav-img-container{
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+    .dropdown-align{
+        margin-left: 0px;
+    }
+    .nav-products{
+        gap: 3px;
     }
 }
 
@@ -484,6 +516,9 @@ padding: 0 0 0 10px;
     }
     .search-container {
         height: 30px;
+    }
+    .dropdown-align{
+        margin-left: -300px;
     }
     
 } 

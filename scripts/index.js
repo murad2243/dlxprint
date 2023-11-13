@@ -41,3 +41,34 @@ function handleNavImage(event,url){
 
     console.log(url)
 }
+function handleSearch(search){
+    console.log("search", search)
+
+    let searchResult = document.getElementById("search-result")
+    searchResult.style.visibility = "visible";
+
+    if(search === ""){
+        searchResult.style.visibility = "hidden";
+    }
+}
+
+// let searchright = document.getElementById("search-input")
+// searchright.addEventListener("click", (e)=>{
+//     console.log(e.target.value)
+
+// })
+
+// owl carousel 
+
+var elem = document.querySelector('.main-carousel');
+var flkty = new Flickity( elem, {
+  // options
+  cellAlign: 'left',
+  contain: true
+});
+
+// element argument can be a selector string
+//   for an individual element
+var flkty = new Flickity( '.main-carousel', {
+  // options
+});
