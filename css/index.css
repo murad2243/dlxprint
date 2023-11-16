@@ -8,7 +8,9 @@
     /* box-sizing: border-box; */
     /* outline: 1px solid limegreen !important; */
 }
-
+p,h1,h2,h3,h4,h5,h6,div,img{
+  margin:0;
+}
 .overview-container{
     background-color: #c9c9c9;
 }
@@ -23,11 +25,10 @@
 }
 .overview-div img{
     height: 30px;
-    margin : 0px 5px;
+    margin :  5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -10px;
 }
 .overview-div > div{
     display: flex;
@@ -35,10 +36,11 @@
     align-items: center;
     width: fit-content;
     margin: auto;
-    margin-top: 10px;
+    margin: 10px;
     height: fit-content;
     font-size: small;
 }
+
 .carousel{
     max-width:  1300px;
     margin: auto;
@@ -46,16 +48,179 @@
 }
 
 .carousel-cell img{
-    height: 100%;
-    
+    height: 100%
 }
+.carousel-cell > div img{
+    /* height: 180px; */
+    width: 255px;
+}
+
 .carousel-cell {
-    width: 22%;
-    height: 200px;
+    /* width: 200px; */
+    /* height: 200px; */
     margin-right: 5px;
     border-radius: 5px;
     counter-increment: carousel-cell;
+    font-weight: 600;
+    text-align: center;
   }
+  .carousel-cell p{
+    z-index: 1000;
+  }
+  .flickity-button {
+    scale: 0.8;
+    margin-top: -10px;
+    }
+  .products-heading{
+    max-width: 1300px;
+    margin: 10px auto;
+    /* text-align: center; */
+    font-size: x-large;
+  }
+  .copyrights{
+    padding: 5px 0  0 0;
+    background: #333;
+    color: #ccc;
+    line-height: 15px;
+    font-size: small;
+  }
+  .main-footer{
+    background-image: url("../images/bg_footer-map.webp");
+    width: 100%;
+    color: #aaa;
+    font-size: 0.9rem;
+    line-height: 20px;
+  }
+  .main-footer a{
+    color: #aaa;
+    text-decoration: none;
+  }
+  .container{
+    max-width: 1300px;
+    padding: 20px 10px ;
+    margin: auto;
+  }
+  .btn-template-main{
+    background-color: #d93800;
+    border-radius: 20px;
+    color: white !important;
+  }
+  .btn-template-main:hover{
+    background-color: black;
+    color: white;
+  }
+  .footer-heading{
+    color: #aaa;
+    margin: 5px 0;
+    font-size: medium;
+    text-transform: uppercase;
+  }
+  .copyrights p {
+    /* letter-spacing: 0.1px; */
+    margin-bottom: 0;
+  }
+  .contact-us-div{
+    text-align: center;
+    background-color: #d93800;
+    color: white;
+    padding: 30px;
+  }
+  .contact-btn{
+    color: white;
+    border: 1px solid white;
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+    border-radius: 20px;
+  }
+  .contact-btn:hover{
+    color: #d93800;
+    background: white;
+    text-decoration: none;
+
+  }
+  .about-us-container{
+    margin: 20px;
+    transition:  0.1s;
+  }
+  .about-us-container p{
+    text-align: justify;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  /* testimonials css */
+  .testimonials-container{
+    /* height: 200px; */
+    width: 100%;
+    padding: 5px;
+    background-image: url("../images/carousel/slider_background.jpg");
+    /* background-image: url("../images/texture.webp"); */
+  }
+  .testimonial-div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    height: 100%;
+    display: grid !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* width: 250px !important; */
+    height: 300px;
+    width: 300px;
+  }
+  .testimonial-heading{
+    text-align: center;
+    margin: 20px;
+  }
+  .testimonial-heading > h2{
+    text-transform: uppercase;
+  }
+  .testimonial-div p{
+    /* text-align: justify; */
+    font-size: 0.85rem;
+    color: #999;
+  }
+  .review-bottum{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    width: 100%;
+    text-align: end;
+  }
+  .t-icon{
+    color: #d93800;
+    font-size: 35px;
+  }
+  .review-div{
+    margin: auto;
+    max-width: 1300px;
+  }
+  /* larg formate section */
+  .larg-formate-container{
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+  }
+  .larg-formate-container > div{
+    padding: 10px;
+    border-bottom: #c9c9c9 solid 1px;
+    /* border-radius: 10px; */
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
+  }
+  .larg-formate-container a {
+    color: #d93800;
+  }
+  .larg-formate-container img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
 /* ============ mobile view ============ */
 @media (min-width:200px) and (max-width: 769px) {
 	.overview-div{
@@ -75,9 +240,57 @@
         height: 20px;
         margin : 10px;
     }
+    .flickity-button {
+        scale: 0.6;
+        margin-top: -20px;
+    }
+    .carousel-cell > div img{
+        width: 165px;
+    }
+    .carousel {
+        margin: 20px;
+    }
+    .products-heading{
+        max-width: 1300px;
+        margin: 5px 20px;
+        /* text-align: center; */
+        font-size: large;
+    }
+    .container{
+        padding: 20px;
+      }
+    .contact-us-div{
+        text-align: center;
+        background-color: #d93800;
+        color: white;
+        padding: 30px;
+        font-size: x-small;
+      }
+      .about-us-container {
+        text-align: justify;
+        margin: 0px;
+        width: 100%;
+        font-size: small;
+      }
+      /* .testimonial-div {
+        height: 320px;
+        width: 300px;
+      } */
+      .larg-formate-container{
+        max-width: 1300px;
+        margin: auto;
+        display: grid;
+        padding: 10px;
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+      }
 }
 /* tablet view */
 @media (min-width: 770px) and (max-width: 1350px){ 
+    .flickity-button {
+        scale: 0.6;
+        margin-top: -20px;
+    }
     
     .overview-div{
         padding: 10px ;
@@ -87,6 +300,24 @@
         height: 25px;
         margin : 10px;
     }
-    
+    .about-us-container {
+        margin: 20px;
+        width: 93%;
+    }
+    .products-heading{
+        max-width: 1300px;
+        margin: 10px;
+        /* text-align: center; */
+        font-size: large;
+      }
+      /* .testimonial-div {
+        height: 320px;
+        margin-left: 50px;
+    } */
+    .container {
+        padding: 30px ;
+        margin: auto;
+    }
+ 
 } 
   

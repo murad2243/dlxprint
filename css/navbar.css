@@ -34,6 +34,10 @@
     margin: auto;
     padding: 0;
 }
+.container-fluid {
+    width: 100%;
+    padding: 0px;
+}
 .navbar-nav{
     width: fit-content;
     margin: auto;
@@ -109,7 +113,7 @@
     max-width: 1300px;
     margin: auto;
     display: flex;
-    padding: 10px;
+    padding: 10px 0px;
     justify-content: space-between;
     
 }
@@ -170,7 +174,6 @@ border-bottom-right-radius: 5px;
 text-decoration: none;
 cursor: pointer;
 }
-.
 
 .button:hover {
 transition-duration: 0.4s;
@@ -304,14 +307,21 @@ padding: 0 0 0 10px;
     background-color: #F3F3F3;
     position: absolute;
     top: 8vh;
-    height: 500px;
-    width: 300px;
+    height: 0;
+    width: 0;
     right: 5vh;
     opacity: 0.9;
     visibility: hidden;
 }
 /* ============ mobile view ============ */
 @media (min-width:200px) and (max-width: 769px) {
+    .contact-container{
+        position: relative;
+        width: 100%;
+        z-index: 5;
+        top: 0;
+        background-color: white;
+    }
     .container-fluid {
         display: flex;
     }
@@ -410,7 +420,7 @@ padding: 0 0 0 10px;
     .nav-item{
         border-bottom: #B7B7B7 solid 1px;
         width: 96%;
-        margin: auto;
+        /* margin: 5px; */
     }
     .navbar-img{
         height: 150px;
@@ -444,7 +454,9 @@ padding: 0 0 0 10px;
     }
     .nav-products{
         gap: 3px;
+        grid-template-columns: repeat(3,1fr);
     }
+
 }
 
 /* tablet view */
