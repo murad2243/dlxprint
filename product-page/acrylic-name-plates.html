@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>business-card</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/689c976b46.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/product-page.css">
+    <link rel="stylesheet" href="../flickity/flickity.min.css">
+    <script src="../flickity/flickity.pkgd.min.js"></script>
+    <script src="../scripts/navbar.js"></script>
+    <link rel="stylesheet" href="../owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="../owl-carousel/owl.theme.css">
+    <!-- Default Theme -->
+    <script src="../owl-carousel/jquery-1.9.1.min.js"></script>
+    <!--  jQuery 1.7+  -->
+    <script src="../owl-carousel/owl.carousel.js"></script>
+    <!-- thumbnail carousel -->
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <style>
+    /* .fotorama__nav__frame--thumb{
+      height: 100px !important;
+      width: 100px !important;
+    }
+    .fotorama__nav__frame--thumb  img{
+      height: 100% !important;
+      width: 100% !important;
+      left: 0 !important;
+    }
+    .fotorama__thumb-border{
+      width: 100px !important;
+      height: 98px !important;
+      
+      transform: translate3d(100px,0px,0px,0px) !important;
+    } */
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <div class="nav-contact">
+          <a href="../index.html" aria-label="dlxprint">
+            <img src="../images/black_logo.png" class="logo" alt="">
+          </a>
+          <div style="display: flex;">
+            <div class="contact-div">
+              <a class="contact-info" href="mailto:print@dlxprint.com">
+                <i class="fa fa-envelope"></i> 
+                 Print@dlxprint.com
+              </a>
+              <div class="contact-info" >
+                <i class="fa-solid fa-phone"></i>
+                +971 4 272 5202
+              </div>
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=+971552314573&text=Hello!" target="_blank">
+                <img src="../images/icons/wa-chat-icon.png" class="whatsapp-icon" alt="">
+                <!-- <i  class="fa-brands fa-whatsapp whatsapp-icon"></i> -->
+            </a>
+          </div>
+        </div>
+        <div class="navbar-container">
+          <nav class="navbar navbar-expand-lg  ">
+              <div class="container-fluid">
+              <div class="collapse navbar-collapse " id="main_nav">
+                <div class="nav-opt">
+                  <ul class="navbar-nav">
+                     <li class="home-btn">
+                      <div style="display: flex; justify-content: space-between;">
+                        <a href="https://www.dlxprint.com/index.html" style="display: flex; gap: 2px; " class="nav-link">
+                          <i class="fa-solid fa-house" style="margin-top: 2px;"></i>
+                            Home
+                        </a>
+                        <button class="navbar-toggler" type="button"  style="color: black;" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon" >
+                            <i class="fa-solid fa-xmark"></i>
+                          </span>
+                        </button>
+                      </div>
+                     </li>
+                     <li class="nav-item dropdown">
+                       <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Print & Marketing   </a>
+                       <div class="dropdown-menu  ">
+                           <div class="submenu">
+                            <div class="submenu-info">
+                              <div class="dropdown-class">
+                                <p class="nav-opt-heading">Print & Marketing</p>
+                                <p class="nav-sub-heading" >Stationery & Corporate Identity</p>
+                                <a onmouseenter="handleNavImage(event,'../images/navbarImages/business_cards.webp','BUSSINESS CARDS')" href="google.com"> Bussiness Cards</a>
+                                <a onmouseenter="handleNavImage(event,'../images/navbarImages/letterheads.webp')" href="#"> letterheads</a>
+                                <a onmouseenter="handleNavImage(event,'../images/navbarImages/envelopes.webp')" href="#">Envelopes</a>
+                                <a onmouseenter="handleNavImage(event,'../images/navbarImages/folders.webp')" href="#">Folders</a>
+                                <a onmouseenter="handleNavImage(event,'../images/navbarImages/letterheads.webp')" href="#"> Notepads</a>
+                                <a onmouseenter="handleNavImage(event,'../images/navbarImages/binding.webp')" href="#">Binding</a>
+                                <a onmouseenter="handleNavImage(event,'../images/navbarImages/notepads.webp')" href="#">Thank You Card</a>
+                                <a onmouseenter="handleNavImage(event,'../images/navbarImages/thank_you_card.jpg')" href="#">Certificates</a>
+                                <p class="nav-sub-heading">Seals</p>
+                                <a href="#">Self Ink Stamps</a>
+                                <a href="#">Wax Seal</a>
+                                <a href="#">Embossing Seal </a>
+                                <p class="nav-sub-heading">Voucher Books</p>
+                              </div>
+                              <div class="dropdown-class">
+                                <p class="nav-sub-heading" >Brochures & Flyers </p>
+                                <a href="#">Brochures</a>
+                                <a href="#">Flyers</a>
+                                <a href="#">Booklets & Catalogues</a>
+                                <p class="nav-sub-heading">Lanyards& Id Cards</p>
+                                <a href="#">Id Card & Badge Reel</a>
+                                <a href="#">Lanyards</a>
+                                <p class="nav-sub-heading">Cd / Dvd</p>
+                                <a href="#">Cd / Dvd Printing</a>
+                                <a href="#">CD / Dvd Covers</a>
+                                <p class="nav-sub-heading">Hang Tangs</p>
+                                <p class="nav-sub-heading">Crowd Promations</p>
+                                <a href="#">Compliment Slips</a>
+                                <a href="#">Tickets & Win Coupons</a>
+                                <a href="#">Scratch & Win Coupons</a>
+                                <a href="#">Tent Cards </a>
+                              </div>
+                              <div class="dropdown-class">
+                              <p class="nav-sub-heading">Stickers </p>
+                              <a href="#">Die Cut Sticker</a>
+                              <a href="#">Paper Sticker Gloss / Matt</a>
+                              <a href="#">Transparent Sticker</a>
+                              <a href="#">Pvc White Sticker</a>
+                              <a href="#">White Ink Sticker</a>
+                              <a href="#">Expoxy Sticker</a>
+                              <a href="#">Foils Sticker</a>
+                              <a href="#">Metal Sticker</a>
+                              <a href="#">Embossing Seal Sticker</a>
+                              <a href="#">Helmet Sticker</a>
+                              <a href="#">Halogram Sticker</a>
+                              <a href="#">Kraft Paper Sticker</a>
+                              <p class="nav-sub-heading">Other</p>
+                              <a href="">Boat / Yachts Sticker</a>
+                              </div>
+                            </div>
+                              <div class="dropdown-class">
+                                <div class="nav-img-container">
+                                  <img class="navbar-img" id="nav-img" src="../images/navbarImages/business_cards.webp" alt="">
+                                  <h6 class="navbar-img-text" id="nav-img-text">Bussiness Cards</h6>
+                                </div>
+                                <h6>Most Popular</h6>
+                                <div class="nav-products">
+                                  <div>
+                                    <img src="../images/navbarImages/business_cards.webp" alt="">
+                                    <p>Bussiness Cards </p>
+                                  </div>
+                                  <div>
+                                    <img src="https://www.dlxprint.com/img/catalogue_printing_dubai.webp" alt="">
+                                    <p>Booklets</p>
+                                  </div>
+                                  <div>
+                                    <img src="https://www.dlxprint.com/img/self_ink_stamps_dubai.webp" alt="">
+                                    <p>Stamps</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                       </div>
+                     </li>
+                     <li class="nav-item dropdown">
+                       <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Fabric & Fashion</a>
+                       <div class="dropdown-menu">
+                         <div class="submenu">
+                          <div class="submenu-info">
+                            <div class="dropdown-class">
+                              <p class="nav-opt-heading" >Textile Printing </p>
+                              <p class="nav-sub-heading">Fashion</p>
+                              <a href="#">Scarf</a>
+                              <a href="#">Bandana</a>
+                              <a href="#">Hair Scarf</a>
+                              <a href="#">Abaya</a>
+                              <a href="#">Sarong</a>
+                              <a href="#">Beach Shorts</a>
+                              <a href="#">Pocket Handkerchief</a>
+                              <a href="#">Scrunchie</a>
+                              <a href="#">Bag Scarf</a>
+                            </div>
+                            <div class="dropdown-class">
+                            <p class="nav-sub-heading" >Soft Furnishing </p>
+                            <a href="#">Decarative Pillows</a>
+                            <a href="#">Floor Cushion</a>
+                            <a href="#">Tiny Cushion</a>
+                            <a href="#">Bolster Pillow</a>
+                            <a href="#">Bean Bags</a>
+                            <a href="#">Blanket</a>
+                            <a href="#">Fabric Wrap</a>
+                            <p class="nav-sub-heading">Dining</p>
+                            <a href="#">Placemat</a>
+                            <a href="#">Table Napkin</a>
+                            <a href="#">Dinning Napkin</a>
+                            <a href="#">Dinning Table Cloth</a>
+                            </div>
+                            <div class="dropdown-class">
+                            <p class="nav-sub-heading" >Lifestyle </p>
+                            <a href="#">Jersey</a>
+                            <a href="#">Armband</a>
+                            <a href="#">Sash</a>
+                            <a href="#">Umbrella</a>
+                            <a href="#">Face Masks</a>
+                            <a href="#">Arron</a>
+                            <p class="nav-sub-heading">Poiches</p>
+                            <a href="#">Drawstring Pouches</a>
+                            <p class="nav-sub-heading">Fabric Range</p>
+                            <p class="nav-sub-heading">Patterns</p>
+                            </div>
+                          </div>
+                          <div class="dropdown-class">
+                            <div class="nav-img-container">
+                              <img class="navbar-img" id="nav-img" src="../images/navbarImages/business_cards.webp" alt="">
+                              <h6 class="navbar-img-text" id="nav-img-text">Bussiness Cards</h6>
+                            </div>
+                            <h6>Most Popular</h6>
+                            <div class="nav-products">
+                              <div>
+                                <img src="../images/navbarImages/binding.webp" alt="">
+                                <p>Bindind</p>
+                              </div>
+                              <div>
+                                <img src="../images/navbarImages/business_cards.webp" alt="">
+                                <p>Business Cards</p>
+                              </div>
+                              <div>
+                                <img src="../images/navbarImages/envelopes.webp" alt="">
+                                <p>Envelopes</p>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                       </div>
+                     </li>
+                     <li class="nav-item dropdown">
+                       <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Office & Store Branding </a>
+                       <div class="dropdown-menu ">
+                        <div class="submenu">
+                         
+                         <div class="submenu-info">
+                          <div class="dropdown-class">
+                            <p class="nav-opt-heading" >Office & Store Branding </p>
+                            <p class="nav-sub-heading">Frosted Sticker</p>
+                            <a href="#">Reserse Cut Frosted Sticker</a>
+                            <a href="#">Standard Cut Frosted Sticker</a>
+                            <a href="#">Printed Frosted Sticker</a>
+                            <a href="#">Blank Frosted Sticker</a>
+                            <p class="nav-sub-heading">Window Branding</p>
+                            <a href="#">Window Vinyl Letterning</a>
+                            <a href="#">Window Graphics</a>
+                            <a href="#">One Way Vision Sticker</a>
+                            <a href="#">Window Films</a>
+                            <p class="nav-sub-heading">Floor Sticekr</p>
+                        </div>
+                        <div class="dropdown-class">
+                          <p class="nav-sub-heading" >Wall Branding </p>
+                          <a href="#">Wall Vinyl Lettering</a>
+                          <a href="#">Wall Graphics</a>
+                          <p class="nav-sub-heading">Wall Decor</p>
+                          <a href="#">Home Wallpaper</a>
+                          <p class="nav-sub-heading">Wall frames</p>
+                          <a href="#">Canvas</a>
+                          <a href="#">Wooden</a>
+                          <a href="#">Acrylic</a>
+                          <a href="#">Metal Art</a>
+                          <p class="nav-sub-heading">Posters</p>
+                          <a href="#">Repositionable Cling</a>
+                        </div>
+                        <div class="dropdown-class">
+                          <p class="nav-sub-heading" >Workplace </p>
+                          <a href="#">Desk Partition</a>
+                          <p class="nav-sub-heading" href="#">Vehicle Graphics</p>
+                          <a href="#">Car Door</a>
+                          <a href="#">Half Wrap Vehicle</a>
+                          <a href="#">Van Branding</a>
+                          <a href="#">Arron</a>
+                          <p class="nav-sub-heading">Magnetic Sheet</p>
+                          <p class="nav-sub-heading">Ceremonial Ribbon</p>
+                        </div>
+                         </div>
+                         <div class="dropdown-class">
+                          <div class="nav-img-container">
+                            <img class="navbar-img" id="nav-img" src="../images/navbarImages/business_cards.webp" alt="">
+                            <h6 class="navbar-img-text" id="nav-img-text">Bussiness Cards</h6>
+                          </div>
+                          <h6>Most Popular</h6>
+                          <div class="nav-products">
+                            <div>
+                              <img src="../images/navbarImages/binding.webp" alt="">
+                              <p>Bindind</p>
+                            </div>
+                            <div>
+                              <img src="../images/navbarImages/business_cards.webp" alt="">
+                              <p>Business Cards</p>
+                            </div>
+                            <div>
+                              <img src="../images/navbarImages/envelopes.webp" alt="">
+                              <p>Envelopes</p>
+                            </div>
+                          </div>
+                         </div>
+                        </div>
+                      </div>
+                     </li>
+                     <li class="nav-item dropdown">
+                         <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Signages </a>
+                         <div  class="dropdown-menu dropdown-align">
+                          <div class="submenu">
+                        <div class="submenu-info">
+                          <div class="dropdown-class">
+                              <p class="nav-opt-heading" >All Signages</p>
+                              <p class="nav-sub-heading">3D Indoor / Outdoor Signage</p>
+                              <a href="#">Unlit 3D Signage</a>
+                              <a href="#">Frontlit 3D Signage</a>
+                              <a href="#">Backlit 3D Signage</a>
+                              <a href="#">Outlit 3D Signage</a>
+                              <a href="#">Push Through 3D Signage</a>
+                              <a href="#">Neon 3D Signage</a>
+                              <p class="nav-sub-heading">Sign Board</p>
+                              <a href="#">Flex Face Sign Board</a>
+                              <a href="#">Frontlit 3D Sign Board</a>
+                              <a href="#">Backlit 3D Sign Board</a>
+                              <a href="#">Push Through Sign Board</a>
+                              <a href="#">Neon Sign Board</a>
+                          </div>
+                          <div class="dropdown-class">
+                            <p class="nav-sub-heading" >Light Box Signages</p>
+                            <a href="#">Flex Face Light Box</a>
+                            <a href="#">Fabric Light Box</a>
+                            <a href="">Acrylic Light Box</a>
+                            <a href="#">Poster Light Box</a>
+                            <p class="nav-sub-heading">Direction / Wayfinding Signage</p>
+                            <a href="#">Self-Standing Signage</a>
+                            <a href="#">Wall Mounted Signage</a>
+                            <a href="#">Hanging Signage</a>
+                            <a href="#">Directory Signage</a>
+                            <p class="nav-sub-heading">Self Standing Letters</p>
+                            <a href="#">Metal Letters</a>
+                            <a href="#">Wooden Letters</a>
+                            <a href="#">Acrylic Letters</a>
+                            <a href="#">Forex / FOAM Letters</a>
+                          </div>
+                          <div class="dropdown-class">
+                            <p class="nav-sub-heading" >Name Plate </p>
+                            <a href="#">Metal Name Plates</a>
+                            <a href="#">Acrylic Name Plates</a>
+                            <a href="#">Wooden Name Plates</a>
+                            <a href="#">Table TOP Plates /  SIGN</a>
+                            <p class="nav-sub-heading" >Safety Signage</p>
+                            <a href="#">Self-Standing Sign</a>
+                            <a href="#">Wall Mounted Sign</a>
+                            <a href="#">Floor Sign / Floot Graphics</a>
+                            <p class="nav-sub-heading" >Labels</p>
+                            <a href="#">Traffolyte / Pvc / Acrylic Labels</a>
+                            <a href="#">Metal Labels</a>
+                            <a href="#">Wooden Labels</a>
+                            <a href="#">Acrylic Labels</a>
+                          </div>
+                        </div>
+                        <div class="dropdown-class">
+                          <div class="nav-img-container">
+                            <img class="navbar-img" id="nav-img" src="../images/navbarImages/business_cards.webp" alt="">
+                            <h6 class="navbar-img-text" id="nav-img-text">Bussiness Cards</h6>
+                          </div>
+                          <h6>Most Popular</h6>
+                          <div class="nav-products">
+                            <div>
+                              <img src="../images/navbarImages/binding.webp" alt="">
+                              <p>Bindind</p>
+                            </div>
+                            <div>
+                              <img src="../images/navbarImages/business_cards.webp" alt="">
+                              <p>Business Cards</p>
+                            </div>
+                            <div>
+                              <img src="../images/navbarImages/envelopes.webp" alt="">
+                              <p>Envelopes</p>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                        </div>
+                     </li>
+                     <li class="nav-item dropdown">
+                          <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Flags</a>
+                          <div  class="dropdown-menu dropdown-align">
+                            <div class="submenu">
+                             <div class="submenu-info">
+                              <div class="dropdown-class">
+                                <p class="nav-opt-heading" >All Flags</p>
+                                <p  class="nav-sub-heading">Advertising Flags</p>
+                                <a href="#">Sail Flags</a>
+                                <a href="#">Tear Drop Flags</a>
+                                <a href="#">L Shape Flags</a>
+                                <a href="#">Blade Flags</a>
+                                <a href="#">Telescopic Flags</a>
+                                <p  class="nav-sub-heading">Decorative Flags</p>
+                                <a href="#">Car Flags</a>
+                                <a href="#">Car DESERT Flags</a>
+                                <a href="#">Pennant Flags</a>
+                                <a href="#">Toothpick Flags</a>
+                            </div>
+                            <div class="dropdown-class">
+                              <p class="nav-sub-heading" >Handheld Flags</p>
+                              <a href="#">Pole Flags</a>
+                              <a href="#">Hand Flags</a>
+                              <a href="">Finish LINE</a>
+                              <a href="#">Body Flags</a>
+                              <a href="#">Fan SCART</a>
+                              <p  class="nav-sub-heading">Outdoor Flags</p>
+                              <a href="#">Hoisting Flags</a>
+                              <a href="#">Wall Mounted Flags</a>
+                              <a href="#">Staduim Flags</a>
+                              <a href="#">Advertising Flags</a>
+                              <a href="#">Festival Flags</a>
+                            </div>
+                            <div class="dropdown-class">
+                              <p class="nav-sub-heading" >Office Flags </p>
+                              <a href="#">Table Flags</a>
+                              <a href="#">Table Flags - Royel</a>
+                              <a href="#">Conference Flags</a>
+                              <p class="nav-sub-heading" >Flag Base</p>
+                            </div>
+                             </div>
+                             <div class="dropdown-class">
+                              <div class="nav-img-container">
+                                <img class="navbar-img" id="nav-img" src="../images/navbarImages/business_cards.webp" alt="">
+                                <h6 class="navbar-img-text" id="nav-img-text">Bussiness Cards</h6>
+                              </div>
+                              <h6>Most Popular</h6>
+                              <div class="nav-products">
+                                <div>
+                                  <img src="../images/navbarImages/binding.webp" alt="">
+                                  <p>Bindind</p>
+                                </div>
+                                <div>
+                                  <img src="../images/navbarImages/business_cards.webp" alt="">
+                                  <p>Business Cards</p>
+                                </div>
+                                <div>
+                                  <img src="../images/navbarImages/envelopes.webp" alt="">
+                                  <p>Envelopes</p>
+                                </div>
+                              </div>
+                             </div>
+                             </div>
+                          </div>
+                     </li>
+                     <li class="nav-item dropdown">
+                          <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Backdrops & Exhibition </a>
+                          <div  class="dropdown-menu dropdown-align">
+                            <div class="submenu">
+                             
+                             <div class="submenu-info">
+                              <div class="dropdown-class">
+                                <p class="nav-opt-heading" >All Backdrops</p>
+                                <p  class="nav-sub-heading">Popups, Rollups & Banners</p>
+                                <a href="#">Pop Ups</a>
+                                <a href="#">Fabric Pop Ups</a>
+                                <a href="#">Rollup Banners</a>
+                                <a href="#">X Banners</a>
+                                <a href="#">Lama Stand</a>
+                                <p  class="nav-sub-heading">Backlit Standee</p>
+                                <a href="#">Snapfold Backlit Standee</a>
+                                <a href="#">Classic Backlit Standee</a>
+  
+                            </div>
+                            <div class="dropdown-class">
+                              <p class="nav-sub-heading" >Backdrop & Standees</p>
+                              <a href="#">Wooden Backdrop</a>
+                              <a href="#">Step & Repeat Backdrop</a>
+                              <a href="">Fabric Backdrop - Indoor</a>
+                              <a href="#">Fabric Backdrop - Outdoor</a>
+                              <a href="#">Bolloon Backdrop</a>
+                              <a href="#">Round Backdrop</a>
+                              <a href="#">Popout Banner / Spring A Board</a>
+                              <a href="#">Tablerone Frame</a>
+                              <a href="#">Cutout Standee</a>
+                              <p  class="nav-sub-heading">Backlit Walls</p>
+                              <a href="#">Backlit Backdrop</a>
+                              <a href="#">Backlit Arches</a>
+                            </div>
+                            <div class="dropdown-class">
+                              <p class="nav-sub-heading" >Exhibition & Events </p>
+                              <a href="#">Promotion Table</a>
+                              <a href="#">Exhibition Counters</a>
+                              <a href="#">Tent /  Canopy & Table Cloth </a>
+                              <a href="#">Table Cover & Table Cloth </a>
+                              <a href="#">Socieal Media Frame </a>
+                              <a href="#">Party Props </a>
+                              <a href="#">Foam Board </a>
+                              <a href="#">Shell Scheme Booth Branding </a>
+                              <p class="nav-sub-heading" >Backlit Exhibition Stand</p>
+                              <a href="#">Insland Backlit Shell Scheme</a>
+                              <a href="#">Mudular Backlit Booths</a>
+                            </div>
+                             </div>
+                             <div class="dropdown-class">
+                              <div class="nav-img-container">
+                                <img class="navbar-img" id="nav-img" src="../images/navbarImages/business_cards.webp" alt="">
+                                <h6 class="navbar-img-text" id="nav-img-text">Bussiness Cards</h6>
+                              </div>
+                              <h6>Most Popular</h6>
+                              <div class="nav-products">
+                                <div>
+                                  <img src="../images/navbarImages/binding.webp" alt="">
+                                  <p>Bindind</p>
+                                </div>
+                                <div>
+                                  <img src="../images/navbarImages/business_cards.webp" alt="">
+                                  <p>Business Cards</p>
+                                </div>
+                                <div>
+                                  <img src="../images/navbarImages/envelopes.webp" alt="">
+                                  <p>Envelopes</p>
+                                </div>
+                              </div>
+                             </div>
+                             </div>
+                          </div>
+                     </li>
+                     <li class="nav-item dropdown">
+                          <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Corporate Gifts </a>
+                          <div  class="dropdown-menu dropdown-align">
+                            <div class="submenu">
+                             <div class="submenu-info">
+                              <div class="dropdown-class">
+                                <p class="nav-opt-heading" >All Corporate Gifts</p>
+                                <p  class="nav-sub-heading">Office Essentials</p>
+                                <a href="#">Pens</a>
+                                <a href="#">PU Notebooks</a>
+                                <a href="#">Mouse Pad</a>
+                                <a href="#">X Calendars</a>
+                                <a href="#">Name Badges</a>
+                            </div>
+                            <div class="dropdown-class">
+                              <p class="nav-sub-heading" >Corporate Events</p>
+                              <a href="#">USB</a>
+                              <a href="#">Mugs</a>
+                              <a href="">Bottles</a>
+                              <a href="#">Tumblers</a>
+                              <a href="#">Wristband</a>
+                              <a href="#">T-Shirt</a>
+                              <a href="#">Caps</a>
+                              </div>
+                            <div class="dropdown-class">
+                              <p class="nav-sub-heading" >Shopping Bags</p>
+                              <a href="#">Paper Bag </a>
+                              <a href="#">Kraft Bag</a>
+                              <a href="#">Non Woven Bag </a>
+                              <a href="#">Juite Bag </a>
+                              <a href="#">Tote Bag </a>
+                              <a href="#">Canvas Bag </a>
+                              <a href="#">Drawstring Bag </a>
+                              <a href="#">Cotton String Bag </a>
+                            </div>
+                             </div>
+                             <div class="dropdown-class">
+                              <div class="nav-img-container">
+                                <img class="navbar-img" id="nav-img" src="../images/navbarImages/business_cards.webp" alt="">
+                                <h6 class="navbar-img-text" id="nav-img-text">Bussiness Cards</h6>
+                              </div>
+                              <h6>Most Popular</h6>
+                              <div class="nav-products">
+                                <div>
+                                  <img src="../images/navbarImages/binding.webp" alt="">
+                                  <p>Bindind</p>
+                                </div>
+                                <div>
+                                  <img src="../images/navbarImages/business_cards.webp" alt="">
+                                  <p>Business Cards</p>
+                                </div>
+                                <div>
+                                  <img src="../images/navbarImages/envelopes.webp" alt="">
+                                  <p>Envelopes</p>
+                                </div>
+                              </div>
+                             </div>
+                             </div>
+                          </div>
+                     </li>
+                     <li class="nav-item dropdown">
+                          <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"  style="margin-right: 0;" >  Shopping Bags </a>
+                          <div  class="dropdown-menu ">
+                            <div class="submenu">
+                             <div class="dropdown-class">
+                                 <a href="#">Paper Bag</a>
+                                 <a href="#">Kraft Bag</a>
+                                 <a href="#">Non Woven Bag</a>
+                                 <a href="#">Jute Bag</a>
+                                 <a href="#">Tote</a>
+                                 <a href="#">Canvas Bag</a>
+                                 <a href="#">Drowstring Bag</a>
+                                 <a href="#">Cotton StringBag</a>
+                             </div>
+                             </div>
+                          </div>
+                     </li>
+                  </ul>
+                </div>
+              </div>
+              <button class="navbar-toggler" type="button"  style="color: black;" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" >
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+              </button>
+              <div class="search-container d-flex">
+                  <form action="/search" method="get">
+                    <input class="search expandright" id="searchright" onkeyup="handleSearch(this.value)" type="search"  placeholder="Search">
+                    <label class="button searchbutton" for="searchright">
+                          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </label>
+                  </form>
+              </div> 
+              <div class="search-result" id="search-result">
+                <ul class="list-unstyled" id="search-list">
+                  <li class="item"><a href="promotional-corporate-gifts-dubai.html" class="nav-link">Corporate Gifts</a></li>
+                  <li class="item"><a href="flags-printing-branding-dubai.html" class="nav-link">Flags</a></li>
+                  <li class="item"><a href="backdrop-stand-dubai.html" class="nav-link">Backdrops</a></li>
+                  <li class="item"><a href="office-store-branding-printing-dubai.html" class="nav-link">Office & Store Branding</a></li>
+                    
+                                <li class="item"><a href="digital-business-cards.html" class="nav-link">Business Cards</a></li>
+                                <li class="item"><a href="letter-heads-printing-dubai.html" class="nav-link">Letterheads</a></li>
+                                <li class="item"><a href="envelopes-printing-dubai.html" class="nav-link">Envelopes</a></li>
+                                <li class="item"><a href="folders-printing-dubai.html" class="nav-link">Folders</a></li>
+                                <li class="item"><a href="compliment-slips-dubai.html" class="nav-link">Compliment Slips</a></li>
+                                <li class="item"><a href="notepads-printing-dubai.html" class="nav-link">Notepads</a></li>
+                                <li class="item"><a href="customized-notebooks-dubai.html" class="nav-link">Notebook & Journal</a></li>
+                                <li class="item"><a href="binding.html" class="nav-link">Binding</a></li>
+                            
+                                <li class="item"><a href="stamps-dubai.html" class="nav-link">Self Ink Stamps</a></li>
+                                <li class="item"><a href="wax-seal-dubai.html" class="nav-link">Wax Seal</a></li>
+                                <li class="item"><a href="embossing-seal-dubai.html" class="nav-link">Embossing Seal</a></li>
+                  
+                            <li class="item"><a href="brochures-printing-dubai.html" class="nav-link">Brochures</a></li>
+                            <li class="item"><a href="flyers-printing-dubai.html" class="nav-link">Flyers</a></li>
+                            <li class="item"><a href="catalogues-printing-dubai.html" class="nav-link">Booklets & Catalogues</a></li>
+                             
+                                <li class="item"><a href="cd-printing-dubai.html" class="nav-link">CD / DVD Printing</a></li>
+                                <li class="item"><a href="cd-covers-printing-dubai.html" class="nav-link">CD / DVD Covers</a></li>
+                              
+                                <li class="item"><a href="stickers-prices.html" class="nav-link">PVC Round sticker</a></li>
+                                <li class="item"><a href="print-and-cut-stickers-dubai.html" class="nav-link">Print & Cut sticker</a></li>
+                                <li class="item"><a href="paper-stickers-dubai.html" class="nav-link">Paper Sticker Gloss / Matt</a></li>
+                                <li class="item"><a href="pvc-transparent-stickers-dubai.html" class="nav-link">PVC Transparent Sticker</a></li>
+                                <li class="item"><a href="pvc-stickers-dubai.html" class="nav-link">PVC White Sticker</a></li>
+                                <li class="item"><a href="white-ink-stickers-dubai.html" class="nav-link">White Ink Sticker</a></li>
+                                <li class="item"><a href="epoxy-stickers-dubai.html" class="nav-link">Epoxy sticker</a></li>
+                                <li class="item"><a href="windshield-stickers-dubai.html" class="nav-link">Windshield sticker</a></li>
+                                <li class="item"><a href="stencil-stickers-dubai.html" class="nav-link">Stencil Sticker</a></li>
+                                <li class="item"><a href="embossing-seal-dubai.html#seal-stickers" class="nav-link">Embossing seal sticker</a></li>
+                                <li class="item"><a href="helmet-stickers-dubai.html" class="nav-link">Helmet Sticker</a></li>
+                             
+                  <li class="item"><a href="pens-printing-dubai.html" class="nav-link">Pens</a></li>
+                                <li class="item"><a href="notebooks-printing-dubai.html" class="nav-link">PU Notebooks</a></li>
+                                <li class="item"><a href="calendars-printing-dubai.html" class="nav-link">Calendars</a></li>
+                  <li class="item"><a href="mobile-cover-printing-dubai.html" class="nav-link">Mobile Covers</a></li>
+                             
+                                <li class="item"><a href="t-shirts-printing-dubai.html" class="nav-link">T-Shirts</a></li>
+                  <li class="item"><a href="pillow-cushion-printing-dubai.html" class="nav-link">Pillow & Cushion Covers</a></li>
+                  <li class="item"><a href="bean-bag-dubai.html" class="nav-link">Bean Bags</a></li>
+    
+                                <li class="item"><a href="usb-printing-dubai.html" class="nav-link">USB</a></li>
+                                <li class="item"><a href="mugs-printing-dubai.html" class="nav-link">Mugs</a></li>
+                                <li class="item"><a href="caps-printing-dubai.html" class="nav-link">Caps</a></li>
+                                <li class="item"><a href="magnetic-sheet-printing-dubai.html" class="nav-link">Magnetic Sheet</a></li>
+                             
+                                <li class="item"><a href="coupons-printing-dubai.html" class="nav-link">Tickets & Coupons</a></li>
+                                <li class="item"><a href="scratch-win-cards-dubai.html" class="nav-link">Scratch & Win Coupons</a></li>
+                              
+                  <!-- 		===========New List to be added=========
+                                <li class="item"><a href="#" class="nav-link">Event badges</a></li>
+                                <li class="item"><a href="#" class="nav-link">Office badges</a></li>
+                                <li class="item"><a href="#" class="nav-link">PVC Patch</a></li>
+                                <li class="item"><a href="#" class="nav-link">Embroidery Patch</a></li>
+                                
+                                <li class="item"><a href="#" class="nav-link">Enamel pins</a></li>
+                                <li class="item"><a href="#" class="nav-link">Die cast pins</a></li>
+                                <li class="item"><a href="#" class="nav-link">Keychains</a></li>
+                                <li class="item"><a href="#" class="nav-link">Coins</a></li>
+                              
+                                    ===========New List to be added=========		-->
+                                <li class="item"><a href="sail_flags_dubai.html" class="nav-link">Sail Flags</a></li>
+                                <li class="item"><a href="tear_drop_flags_dubai.html" class="nav-link">Tear Drop Flags</a></li>
+                                <li class="item"><a href="l_shape_flags_dubai.html" class="nav-link">L Shape Flags</a></li>
+                                <li class="item"><a href="telescopic_flags_dubai.html" class="nav-link">Telescopic Flags</a></li>
+                             
+                                <li class="item"><a href="fan_scarf_dubai.html" class="nav-link">Fan Scarf</a></li>
+                                <li class="item"><a href="pennant_flags_dubai.html" class="nav-link">Pennant Flags</a></li>
+                                <li class="item"><a href="bunting_flags_dubai.html" class="nav-link">Bunting Flags</a></li>
+                                <li class="item"><a href="car_flags_dubai.html" class="nav-link">Car Flags</a></li>
+                                <li class="item"><a href="toothpick_flags_dubai.html" class="nav-link">Toothpick Flags</a></li>
+                              
+                                <li class="item"><a href="hand_held_pole_flags_dubai.html" class="nav-link">Pole flags</a></li>
+                                <li class="item"><a href="hand_held_flags_dubai.html" class="nav-link">Hand flags</a></li>
+                  <li class="item"><a href="stadium-flags-dubai.html" class="nav-link">Stadium flags</a></li>
+                              
+                                <li class="item"><a href="hoisting_flags_dubai.html" class="nav-link">Hoisting Flags</a></li>
+                                <li class="item"><a href="wall_mounted_flags_dubai.html" class="nav-link">Wall Mounted Flags</a></li>
+                                <li class="item"><a href="advertising_flags_dubai.html" class="nav-link">Advertising Flags</a></li>
+                                <li class="item"><a href="festival_flags_dubai.html" class="nav-link">Festival Flags</a></li>
+                            
+                                <li class="item"><a href="table_flags_dubai.html" class="nav-link">Table Flags</a></li>
+                                <li class="item"><a href="conference_flags_dubai.html" class="nav-link">Conference Flags</a></li>
+     
+                                <li class="item"><a href="pop-up-banner-dubai.html" class="nav-link">Pop Ups</a></li>
+                                <li class="item"><a href="fabric-pop-up-printing-in-dubai.html" class="nav-link">Fabric Pop Ups</a></li>
+                                <li class="item"><a href="roll-ups-printing-dubai.html" class="nav-link">Rollup Banners</a></li>
+                                <li class="item"><a href="banners-printing-dubai.html#xbanner" class="nav-link">X Banners</a></li>
+                                <li class="item"><a href="banners-printing-dubai.html" class="nav-link">Banners-Flex & Fabric</a></li>
+                                <li class="item"><a href="fence-banner-printing-dubai.html" class="nav-link">Fence Banners</a></li>
+                            
+                                <li class="item"><a href="wooden-backdrop-printing-in-dubai.html" class="nav-link">Wooden Backdrop</a></li>
+                                <li class="item"><a href="step-and-repeat-backdrop-printing-in-dubai.html" class="nav-link">Step & Repeat Backdrop</a></li>
+                                <li class="item"><a href="fabric-backdrop-printing-in-dubai.html" class="nav-link">Fabric Backdrop</a></li>
+                                <li class="item"><a href="backlit-backdrop-printing-in-dubai.html" class="nav-link">Backlit Backdrop</a></li>
+                                <li class="item"><a href="pop-out-banner-printing-in-dubai.html" class="nav-link">Popout Banner / Spring A Board</a></li>
+                                <li class="item"><a href="toblerone-a-frame-printing-in-dubai.html" class="nav-link">Toblerone Frame</a></li>
+                                <li class="item"><a href="cutout-standee-printing-dubai.html" class="nav-link">Cutout Standee</a></li>
+                                <li class="item"><a href="lama-standee-printing-dubai.html" class="nav-link">Lama Stand</a></li>
+                             
+                                <li class="item"><a href="outdoor-tent-printing-dubai.html" class="nav-link">Tent / Canopy / Gazebo</a></li>
+                                <li class="item"><a href="table-cloth-table-cover-dubai.html" class="nav-link">Table Cover & Table Cloth</a></li>
+                                <li class="item"><a href="social_media_hashtag_frame_dubai.html" class="nav-link">Social Media Frame</a></li>
+                                <li class="item"><a href="party-props-dubai.html" class="nav-link">Party Props</a></li>
+                                <li class="item"><a href="foam-board-dubai.html" class="nav-link">Foam Board</a></li>
+                                <li class="item"><a href="exhibition-graphics-dubai.html" class="nav-link">Shell Scheme Booth Branding</a></li>
+                              
+                                <li class="item"><a href="frosted-glass-sticker.html#reverse_cut" class="nav-link">Reverse Cut Frosted sticker</a></li>
+                                <li class="item"><a href="frosted-glass-sticker.html#standard_cut" class="nav-link">Standard Cut Frosted sticker</a></li>
+                                <li class="item"><a href="frosted-glass-sticker.html#printed" class="nav-link">Printed Frosted sticker</a></li>
+                                <li class="item"><a href="frosted-glass-sticker.html#gradiant" class="nav-link">Gradient Frosted sticker</a></li>
+                                <li class="item"><a href="frosted-glass-sticker.html#blank" class="nav-link">Blank Frosted sticker</a></li>
+                         
+                                <li class="item"><a href="window-vinyl-lettering-dubai.html" class="nav-link">Window Vinyl Lettering</a></li>
+                                <li class="item"><a href="window-graphics-dubai.html" class="nav-link">Window Graphics</a></li>
+                                <li class="item"><a href="one-way-vision-sticker-dubai.html" class="nav-link">One Way Vision Sticker</a></li>
+                                <li class="item"><a href="decorative-window-film-dubai.html" class="nav-link">Window Films</a></li>
+                             
+                                <li class="item"><a href="wall-vinyl-lettering-dubai.html" class="nav-link">Wall Vinyl Lettering</a></li>
+                                <li class="item"><a href="wall-graphics-dubai.html" class="nav-link">Wall Graphics</a></li>
+                                <li class="item"><a href="pillar-branding-dubai.html" class="nav-link">Pillar Branding</a></li>
+                        
+                       <!--        
+                                <li class="item"><a href="#" class="nav-link">Clear static cling</a></li>
+                                <li class="item"><a href="#" class="nav-link">Clear static with White ink</a></li>
+                                <li class="item"><a href="#" class="nav-link">White static Cling</a></li>
+                                <li class="item"><a href="#" class="nav-link">Shape cut out Cling</a></li>
+                                -->
+                  
+                                <li class="item"><a href="vehicle-branding-dubai.html" class="nav-link">Car Door</a></li>
+                                <li class="item"><a href="vehicle-branding-dubai.html#half_wrap" class="nav-link">Half Wrap Vehicle</a></li>
+                                <li class="item"><a href="vehicle-branding-dubai.html#bus_branding" class="nav-link">Van Branding</a></li>
+                                <li class="item"><a href="vehicle-branding-dubai.html#golf_cart" class="nav-link">Golf Cart Branding</a></li>
+                           
+                                <li class="item"><a href="wall-signage-dubai.html" class="nav-link">Wall signage</a></li>
+                                <li class="item"><a href="reception-signage-dubai.html" class="nav-link">Reception signage</a></li>
+                         <!--       <li class="item"><a href="#" class="nav-link">Door signage</a></li>			-->
+                                <li class="item"><a href="3d-signage-dubai.html" class="nav-link">3D signage</a></li>
+                            
+                                <li class="item"><a href="social-distancing-screen-divider-dubai.html#desk_partition" class="nav-link">Desk Partition</a></li>
+                                <li class="item"><a href="social-distancing-screen-divider-dubai.html" class="nav-link">Counter Partition</a></li>
+                             
+                                <li class="item"><a href="fashion-scarf-dubai.html" class="nav-link">Scarf</a></li>
+                                <li class="item"><a href="fashion-sarong-dubai.html" class="nav-link">Sarong</a></li>
+                                <li class="item"><a href="fashion-stoles-dubai.html" class="nav-link">Stoles</a></li>
+                                <li class="item"><a href="fashion-bandana-dubai.html" class="nav-link">Bandana</a></li>
+                  <li class="item"><a href="fashion-sash-dubai.html" class="nav-link">Sash</a></li>
+                  <li class="item"><a href="fashion-hand-umbrella-dubai.html" class="nav-link">Hand Umbrella</a></li>
+                              
+                                <li class="item"><a href="#" class="nav-link">Apron</a></li>
+                                <li class="item"><a href="#" class="nav-link">Napkins</a></li>
+                                <li class="item"><a href="#" class="nav-link">Linen Table Throw</a></li>
+                             
+                             
+                                <li class="item"><a href="#" class="nav-link">Decorative pillows</a></li>
+                                <li class="item"><a href="#" class="nav-link">Bedsheet</a></li>
+                  <li class="item"><a href="#" class="nav-link">Bean Bags</a></li>
+                  <li class="item"><a href="#" class="nav-link">Roller Blinds</a></li>
+                  <li class="item"><a href="#" class="nav-link">Curtains</a></li>
+                             
+                                <li class="item"><a href="#" class="nav-link">Wall paper</a></li>
+                                <li class="item"><a href="#" class="nav-link">Frames</a></li>
+                                <li class="item"><a href="#" class="nav-link">Cotton print</a></li>
+                           
+                                <li class="item"><a href="#" class="nav-link">Cotton Custom Bags</a></li>
+                                <li class="item"><a href="#" class="nav-link">Draw String Pouches</a></li>
+                  <li class="item"><a href="#" class="nav-link">Zip pouch</a></li>
+                             
+                                <li class="item"><a href="social-distancing-screen-divider-dubai.html#desk_partition" class="nav-link">Desk Partition</a></li>
+                                <li class="item"><a href="social-distancing-screen-divider-dubai.html" class="nav-link">Counter Partition</a></li>
+                            <li class="item"><a href="roll-ups-printing-dubai.html" class="nav-link">Social Distance Rollup Banners</a></li>
+                            
+                            <li class="item"><a href="floor-graphic-sticker-dubai.html" class="nav-link">Social Distance Floor Stickers</a></li>
+                            <li class="item"><a href="floor-graphic-sticker-dubai.html#floor-elevator" class="nav-link">Social Distance Elevator Stickers</a></li>
+                            <li class="item"><a href="posters-printing-dubai.html" class="nav-link">Social Distance Posters</a></li>
+                            <li class="item"><a href="roll-ups-printing-dubai.html" class="nav-link">Social Distance Rollup Banners</a></li>
+                             
+                            <li class="item"><a href="custom-face-mask-dubai.html" class="nav-link">Face Mask</a></li>
+                            <li class="item"><a href="covid-face-shield-mask-dubai.html" class="nav-link">Face Shield</a></li>
+                            <li class="item"><a href="covid-face-shield-mask-dubai.html#goggles" class="nav-link">Protective Goggles</a></li>
+                            <li class="item"><a href="hand-gloves-dubai.html" class="nav-link">Hand Gloves</a></li>
+                  <li class="item"><a href="hand-sanitizer-dubai.html" class="nav-link">Hand Sanitizer</a></li>
+                            <li class="item"><a href="stickers-prices.html" class="nav-link">Social Distance Round Stickers</a></li>
+                            <li class="item"><a href="pvc-stickers-dubai.html" class="nav-link">Social Distance Square Stickers</a></li>
+                            <li class="item"><a href="print-and-cut-stickers-dubai.html" class="nav-link">Social Distance Die Cut Stickers</a></li>
+                            <li class="item"><a href="cutout-standee-printing-dubai.html" class="nav-link">Social Distance Cutout Standee</a></li>
+                </ul>
+              </div>
+              </div> 
+          </nav> 
+        </div>
+    </div>
+    <div>
+    </div>
+    <nav aria-label="breadcrumb">
+        <div class="breadcrumb-container">
+        <ol class="breadcrumb" style="background-color: transparent; padding: 10px 0px;">
+          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Acrylic Name Plates</li>
+        </ol>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="bottom-line" id="product-name">Acrylic Name Plates</h1>
+        <div class="product-section">
+             <!-- <div  class="fotorama" data-nav="thumbs" data-thumbwidth="100px" data-thumbheight="78px" data-width="100%" >
+            </div> -->
+            <img id="product-img" src="../images/products/acrylic_name_plates_dubai.jpg">
+               
+              <div class="product-info" >
+                <div class="heading">
+                  <h4>Specifications</h4>
+                </div>
+                <div class="produce-details-div">
+                    <h2>Acrylic Name Plates</h2>
+                    <p>(Name Plate / Number Plate / Wall Sign / Door Sign / Comapany Name Sign)</p>
+                    <br>
+                    <h2>Basic Material</h2>
+                    <p>Acrylic, plexi Glass</p>
+                    <br>
+                    <h2>Supporting Material</h2>
+                    <p>Engraving / Etching & Coloring, UV printing, Vinyl Cut Letter, Spacers, Screws, D/S Tape, Super Glue</p>
+                </div>
+
+                <a href="contact-us-for-printing.html">
+                    <button type="button" class="btn btn-template-main mb-2">Order Now</button>
+                </a> 
+               
+              </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product-types">
+            <div>
+                <h3 class="bottom-line" >Transparent Acrylic Plate Digital Printed Clear Vinyl</h3>
+                <img src="../images/products/transparent_acrylic_name_plates_dubai.jpg" alt="">
+            </div>
+            <div>
+                <h3 class="bottom-line" >White Acrylic With 3D Acrylic Letters</h3>
+                <img src="../images/products/white_acrylic_name_plates_dubai.jpg" alt="">
+            </div>
+        </div>
+        <div class="product-types">
+            <div>
+                <h3 class="bottom-line" >Transparent Acrylic Plate Digital Printed Vinyl Sticker 3d Aluminum Cut Letters</h3>
+                <img src="../images/products/digital_printed_transparent_acrylic_name_plates_dubai.jpg" alt="">
+            </div>
+            <div>
+                <h3 class="bottom-line" >Acrylic Plate With Vinyl Cut Letters</h3>
+                <div  class="fotorama" data-nav="thumbs" data-thumbwidth="100px" data-thumbheight="78px" data-width="100%" >
+                    <img src="../images/products/vinyl_sticker_transparent_acrylic_name_plates_dubai.jpg">
+                    <img src="../images/products/vinyl_sticker_transparent_acrylic_name_plates_dubai_01.jpg">
+                 </div>
+            </div>
+        </div>
+        <div class="product-types">
+            <div>
+                <h3 class="bottom-line" >Acrylic Plate with Etching & Colored Letters </h3>
+                <img src="../images/products/acrylic_name_plates_etching_colored_letters_dubai.jpg" alt="">
+            </div>
+            <div>
+                <h3 class="bottom-line" >Acrylic Laser Cut Logo</h3>
+                <img src="../images/products/acrylic_laser_cut_logo_dubai.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+      <div class="condition-section" >
+          <h5>Collect your Business cards same day or delivered next working day (*Conditions apply)! </h5>
+          <ol>
+              <li>Artworks to be provided in Vector PDF, EPS or AL format.</li>
+              <li>Draft be approved before 11 am.</li>
+              <li>Collection time same day between 5:30 pm to 7:00 pm.</li>
+              <li>if next day delivery is required, client needs to notify before 5:30.</li>
+          </ol>
+          <hr style="color: grey;">
+          <p>
+              *Due to high load of printing at times, the above conditions may not be valid (this situation is very rare to occur). Please take confirmation on collection or delivery - if urgent, before submitting your artwork.
+              <br>
+              <br>
+              With www.dlxprint.com you can get your Business cards printed in few hours. If you need your cards same day, you may collect it from our Print Shop (*Conditions apply).
+              <br>
+              <br>
+              Digital Business cards are usually printed on Plain Material to produce best results. 350gsm Matt Card Smooth White is ideal for high quality digital business cards.
+          </p>
+      </div>
+    </div>
+
+
+    <div id="carouselExampleSlidesOnly " class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner about-us-container">
+          <div class="carousel-item active">
+            <h5>
+                Standard business cards printing in Dubai
+            </h5>
+            <p>Elevate your professional presence with our top-notch standard business  card printing services in Dubai. Our precision and attention to detail ensure that your business cards reflect your brand's excellence. Impress and connect seamlessly with clients and partners.
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5>
+                Cheap business card printing Dubai
+            </h5>
+            <p>
+                Unlock cost-effective solutions for your networking needs with our cheap business card printing services in Dubai. Elevate your professional image without compromising quality or your budget.
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5>
+                Budget-friendly business cards
+            </h5>
+            <p>
+                Elevate your brand affordably with our budget-friendly business cards. Quality meets savings, helping you leave a lasting impression without overspending.
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5>
+                Fast turnaround printing in Dubai
+            </h5>
+            <p>
+                Experience the speed of success with our fast turnaround printing services. Get your materials printed quickly without sacrificing quality, ensuring you're always ready to make an impactful impression.
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5>
+                Urgent business cards printing in Dubai
+              </h5>
+            <p>
+                Urgent business cards tailored to your time-sensitive needs. Swift printing and delivery, ensuring you're prepared for every opportunity that comes your way.
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5>
+                Same day business cards printing in Dubai
+            </h5>
+            <p>
+                Seize the day with our same-day business card printing in Dubai. Get your custom cards designed, printed, and ready to network within hours, reflecting your professionalism instantly.
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5>
+                Standard business cards printing in Dubai
+            </h5>
+            <p>
+                Elevate your professional presence with our top-notch standard business  card printing services in Dubai. Our precision and attention to detail ensure that your business cards reflect your brand's excellence. Impress and connect seamlessly with clients and partners.            </p>
+          </div>
+          <div class="carousel-item">
+            <h5>Cheap business card printing Dubai</h5>
+            <p>Unlock cost-effective solutions for your networking needs with our cheap business card printing services in Dubai. Elevate your professional image without compromising quality or your budget.</p>
+          </div>
+          <div class="carousel-item">
+            <h5>Budget-friendly business cards</h5>
+            <p>
+                Elevate your brand affordably with our budget-friendly business cards. Quality meets savings, helping you leave a lasting impression without overspending.
+            </p>
+          </div>
+
+        </div>
+    </div> 
+    <div>
+    <div class="container">
+      <h2 class="sub-heading">Related products</h2>
+      <div id="related-products" class="owl-carousel owl-theme">
+        <div class="product-div">
+          <img src="../images/related-products/standard_business_cards_printing_dubai.webp" alt="">
+          <h2 class="h5">Standard Pack <br> Business Cards </h2>
+          <p>Starting Price AED 60/-</p>
+          <button>Read More</button>
+        </div>
+        <div class="product-div">
+          <img src="../images/related-products/bristol_pack_business_cards_dubai.jpg" alt="">
+          <h2 class="h5">Bristol Pack <br> Business Cards </h2>
+          <p>Starting Price AED 75/-</p>
+          <button>Read More</button>
+        </div>
+        <div class="product-div">
+          <img src="../images/related-products/laminated_business_cards_printing_dubai.jpg" alt="">
+          <h2 class="h5">Executive <br> Business Cards </h2>
+          <p>Starting Price AED 100/-</p>
+          <button>Read More</button>
+        </div>
+        <div class="product-div">
+          <img src="../images/related-products/pearl_white_business_cards_dubai.webp" alt="">
+          <h2 class="h5">Pearl White <br> Business Cards </h2>
+          <p>Starting Price AED 90/-</p>
+          <button>Read More</button>
+        </div>
+        <div class="product-div">
+          <img src="../images/related-products/pvc_business_cards_printing_dubai.webp" alt="">
+          <h2 class="h5">PVC <br> Business Cards </h2>
+          <p>Starting Price: AED 90/-</p>
+          <button>Read More</button>
+        </div>
+        <div class="product-div">
+          <img src="../images/related-products/craft_business_cards_printing_dubai.webp" alt="">
+          <h2 class="h5">Craft Pack <br> Business Cards </h2>
+          <p>Starting Price AED 95/-</p>
+          <button>Read More</button>
+        </div>
+        <div class="product-div">
+          <img src="../images/related-products/classic_business_cards_printing_dubai.webp" alt="">
+          <h2 class="h5">Classic - Conqueror <br> Business Cards </h2>
+          <p>Starting Price AED 130/-</p>
+          <button>Read More</button>
+        </div>
+        <div class="product-div">
+          <img src="../images/related-products/classic_ice_gold_business_cards_dubai.webp" alt="">
+          <h2 class="h5">Classic - Ice Gold <br> Business Cards </h2>
+          <p>Starting Price AED 130/-</p>
+          <button>Read More</button>
+        </div>
+        
+       
+      </div>
+    </div>
+
+    </div>
+    <div class="container">
+        <h3 id="recommend-products-heading">Recently Viewed</h3>
+        <div id="recommend-products-div">
+    
+        </div>
+      </div>
+
+    <div class="contact-us-div">
+        <h4>COULDN'T FIND WHAT YOU ARE LOOKING FOR? 
+          WE CAN CUSTOMISE AS PER YOUR REQUIREMENTS.</h4>
+        <a class="contact-btn btn" href="#">Contact-us</a>
+    </div>
+    <footer class="main-footer">
+        <div class="container">
+          <div id="footer">
+          <div class="row">
+            <div class="col-lg-3">
+              <h4 class="footer-heading">Deluxe Printing</h4>
+              <p>
+              <i class="fa fa-location-arrow"></i> <strong>Sales Office</strong> <br>Al-Murar, Deira, Dubai - UAE<br>
+			        </p>
+                <a href="https://goo.gl/maps/cuR6qUgpFU5S4CYp7" target="_blank" class="btn btn-template-main"><i class="fa fa-map-marker"></i> Sales Office Location</a><br><br>
+              <h4 class="footer-heading">Deluxe Advertising</h4>
+              <p>
+              <i class="fa fa-location-arrow"></i> <strong>Factory</strong> <br>Al Qusais Industrial Area 2, Dubai - UAE<br> <br>
+                <a href="https://goo.gl/maps/WK1QCAEaXS7BHknr9" target="_blank" class="btn btn-template-main"><i class="fa fa-map-marker"></i> Factory Location</a>
+			    </p>
+            </div>
+            <div class="col-lg-3">
+              <h4 class="footer-heading">Contact Us</h4>
+              <i class="fa fa-phone"></i> +971 4 272 5202<br>
+              <a href="mailto:print@dlxprint.com"><i class="fa fa-envelope"></i>  print@dlxprint.com</a> <br><br>
+              <h4 class="footer-heading">Working Hours</h4>
+              <p>9:00 am to 1:00 pm
+              <br>
+              2:00 pm to 7:00 pm
+              <br>
+              1:00 pm to 2:00 pm (Lunch Break)
+              <br>
+              Monday to Saturday
+              </p>
+              <hr class="d-block d-lg-none">
+            </div>
+            <div class="col-lg-3">
+              <h4 class="footer-heading">Quick Links</h4>
+                <ul class="list-inline">
+                  <li><a href="../index.html"><i class="fa fa-caret-right"></i> Home</a></li>
+                  <li><a href="#"><i class="fa fa-caret-right"></i> About Us</a></li>
+                  <li><a href="#"><i class="fa fa-caret-right"></i> Printing Services</a></li>
+                  <li><a href="#"><i class="fa fa-caret-right"></i> Blogs</a></li>
+                  <li><a href="#"><i class="fa fa-caret-right"></i> Careers</a></li>
+                  <li><a href="#"><i class="fa fa-caret-right"></i> Terms</a></li>
+                  <li><a href="#"><i class="fa fa-caret-right"></i> Privacy</a></li>
+                  <li><a href="#"><i class="fa fa-caret-right"></i> Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">				
+              <img src="../images/delivery-van.webp" alt="Printing Services Delivery in Dubai" style="width: 230px; height: auto;" class="img-responsive" id="inquiry-form" loading="lazy"><br>
+              <h4 class="footer-heading">Follow Us</h4>
+                <div class="social-custom" style="font-size: 18pt">
+                  <div class="d-inline-block mr-2"><a href="https://www.facebook.com/deluxeprintingllc" target="_blank"><i class="fa fa-facebook-square"></i></a></div>
+                  <div class="d-inline-block mr-2"><a href="https://www.instagram.com/dlxprint/" target="_blank"><i class="fa fa-instagram"></i></a></div>
+                  <div class="d-inline-block mr-2"><a href="https://twitter.com/dlxprint" target="_blank"><i class="fa fa-twitter-square"></i></a></div>
+                  <div class="d-inline-block mr-2"><a href="https://www.linkedin.com/company/deluxe-printing-dubai" target="_blank"><i class="fa fa-linkedin-square"></i></a></div>
+                  <div class="d-inline-block mr-2"><a href="https://youtube.com/@deluxeprinting6429" target="_blank"><i class="fa fa-youtube-play"></i></a></div>
+                </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="copyrights">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 text-center-md">
+                <p>Copyright © Deluxe Digital Advertising LLC 2023 | All Rights Reserved</p>
+                <p>Rights to the information contained in this site are held by Deluxe Digital Advertising, Dubai. Copying any or part(s) of our site, will result in a court case against you and you will be prosecuted according to the Federal Law No. (7) of 2002 of the UAE on Copyrights Infringement and related rights.</p>
+              </div>
+              <div class="col-lg-4 text-center">
+                <p>Website developed by <a style="color:#d93800;" href="https://www.dlxprint.com">Deluxe</a></p>
+                <!-- Please do not remove the backlink to us unless you purchase the Attribution-free License at https://bootstrapious.com/donate. Thank you. -->
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+<script>
+
+$(document).ready(function() {
+ 
+ $("#related-products").owlCarousel({
+     items : 4 , //10 items above 1000px browser width
+     itemsDesktop : [1000,4], //5 items between 1000px and 901px
+     itemsDesktopSmall : [900,3], // betweem 900px and 601px
+     itemsTablet: [600,2], //2 items between 600 and 0;
+     itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+ });
+});
+
+
+
+// function setRecommendProducts(){
+//     let recommendProducts = JSON.parse(localStorage.getItem("recommend-products")) || []
+//     console.log(recommendProducts)
+//     let recommendProductsDiv = document.getElementById("recommend-products-div")
+//     if(recommendProducts.length < 4){
+//         let cur_product_check = true;
+//         for(i=0; i<recommendProducts.length; i++){
+//             if(document.getElementById("product-name").innerText.trim() === recommendProducts[i].productName){
+//                 cur_product_check = false;
+//                 break;
+//             }
+//         }
+//         if(cur_product_check){
+//          let cur_product = {
+//             productName: document.getElementById("product-name").innerText,
+//             productImg: document.getElementById("product-img").src
+//             }
+//             recommendProducts.push(cur_product)
+//             //  recommendProducts = products;
+//             localStorage.setItem("recommend-products", JSON.stringify(recommendProducts))
+
+//         }
+       
+//       }
+//     if(recommendProducts.length > 0){
+//       recommendProducts.forEach((el) => {
+//         if(el.productName.trim() !== document.getElementById("product-name").innerText.trim() ){
+//             // console.log(el.productName.trim() === document.getElementById("product-name").innerText.trim())
+//             let div = document.createElement("div")
+//             let productName = document.createElement("h5")
+//             productName.innerText = el.productName;
+//             let productImg = document.createElement("img")
+//             productImg.src = el.productImg;
+//             console.log(productImg)
+//             div.append(productImg,productName)
+//             recommendProductsDiv.append(div)
+//         }
+        
+        
+//       });
+//       // console.log(products)
+//     }
+  
+// }
+// setRecommendProducts()
+
+</script>
+<script src="../scripts/product-page.js"></script>
+
+</html>

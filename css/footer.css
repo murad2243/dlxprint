@@ -1,0 +1,280 @@
+
+.copyrights{
+    padding: 5px 0  0 0;
+    background: #333;
+    color: #ccc;
+    line-height: 15px;
+    font-size: small;
+  }
+  .main-footer{
+    background-image: url("../images/bg_footer-map.webp");
+    width: 100%;
+    color: #aaa;
+    font-size: 0.9rem;
+    line-height: 20px;
+  }
+  .main-footer a{
+    color: #aaa;
+    text-decoration: none;
+  }
+  .container{
+    max-width: 1300px;
+    padding: 20px 0px ;
+    margin: auto;
+  }
+  
+  .footer-heading{
+    color: #aaa;
+    margin: 5px 0;
+    font-size: medium;
+    text-transform: uppercase;
+  }
+  .copyrights p {
+    letter-spacing: 0.1px;
+    margin-bottom: 0;
+  }
+  
+  .btn-template-main{
+    background-color: #d93800;
+    border-radius: 20px;
+    margin: 10px auto;
+    color: white !important;
+  }
+  .btn-template-main:hover{
+    background-color: black;
+    color: white;
+    
+  }
+  .contact-us-div{
+    text-align: center;
+    background-color: #d93800;
+    color: white;
+    padding: 30px;
+  }
+  .contact-btn{
+    color: white;
+    border: 1px solid white;
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+    border-radius: 20px;
+  }
+  .contact-btn:hover{
+    color: #d93800;
+    background: white;
+    text-decoration: none;
+
+  }
+  .about-us-container{
+    margin: auto;
+    padding: 20px;
+    max-width: 1300px;
+    transition:  0.1s;
+  }
+  .about-us-container p{
+    text-align: justify;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  /* bottum-div, fixed whatsapp-icon, back-to-top, quick inquiry */
+  #back-to-top {
+    display: none; 
+    position:fixed; 
+    bottom: 145px; 
+    right: 20px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #d93800; 
+    color: white; 
+    cursor: pointer; 
+    padding: 10px 15px;
+    border-radius: 50%; 
+    font-size: 25px; 
+  }
+  
+  #back-to-top:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transition:   0.5s;
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  #fixed-whatsapp-icon{
+    display: block;
+    position: fixed; 
+    bottom: 80px; 
+    right: 20px; 
+    z-index: 99; 
+    cursor: pointer; 
+    border-radius: 50%; 
+    padding: 8px 10px;
+    line-height: 0;
+    /* height: 60px; */
+    color: #fff; 
+    font-size: 40px;
+    /* height: 100px; */
+    background-color: #50CD5D;
+  }
+  #fixed-whatsapp-icon:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    color: 18te;
+    background-color: black;
+  }
+  @keyframes appear {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+          
+  .bottomMenu {
+      position: sticky;
+      bottom: 0;
+      /* border: solid 1px black; */
+      width: 100%;
+      /* background: url("../images/carousel/slider_background.jpg"); */
+      background-color: #F3F3F3;
+      /* color: white; */
+      z-index: 1;
+      box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+      /* transition: all .5s; */
+      animation: appear 2s forwards;
+    }
+    .bottumDiv{
+    transition-delay: 2s;
+  }
+  .hide {
+      opacity:0;
+  }
+  .show {
+      opacity:1;
+  }
+  
+  .bottumContent{
+    /* color: rgb(56, 56, 56); */
+    max-width: 1300px;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    /* display: none; */
+  }
+  .bottumContent > div{
+    display: flex;
+    gap: 20px;
+  }
+  .bottumContent i{
+    margin-right: 5px;
+  }
+  
+  .icon-bar {
+    display: none;
+    position: fixed;
+    background-color: #d93800;
+    color: #fff;
+    top: 50%;
+    cursor: pointer;
+    font-size: medium;
+    padding: 10px 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius:10px ;
+    margin-left: -45px;
+    transform: rotate(90deg);
+  
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  .inquiry-btn{
+    margin: 0;
+    height: fit-content;
+    width: fit-content;
+  }
+  .social-media-section{
+    display: flex;
+    align-items: center;
+    /* gap: 5px; */
+  }
+  .social-media-section  a{
+    color: #333;
+  }
+  @media (min-width:200px) and (max-width: 769px) {
+    .btn-template-main{
+      background-color: #d93800;
+      border-radius: 20px;
+      font-size: small;
+      margin: 10px auto;
+      color: white !important;
+    }
+    .container{
+        padding: 20px;
+      }
+    .contact-us-div{
+        text-align: center;
+        background-color: #d93800;
+        color: white;
+        padding: 30px;
+        font-size: x-small;
+      }
+      .about-us-container {
+        text-align: justify;
+        margin: 0px;
+        width: 100%;
+        font-size: small;
+      }
+      .bottomMenu {
+        font-size: small;
+        opacity: 1;
+        padding: 0px 10px;
+      }
+      #back-to-top {
+        visibility: hidden;
+        bottom: 130px;
+        font-size: 18px; 
+      }
+      #fixed-whatsapp-icon{ 
+        font-size: 25px;
+        bottom: 12px;
+        right: 15px;
+        /* height: 100px; */
+        background-color: #50CD5D;
+      }
+      .inquiry-btn{
+        margin: 0;
+        font-size: small;
+        margin-right: 55px;
+        height: fit-content;
+        width: fit-content;
+      }
+      .bottumContent > div{
+        flex-direction: column;
+        gap: 0px;
+      }
+      .social-media-section{
+        display: none;
+      }
+  }
+  @media (min-width: 770px) and (max-width: 1350px){
+    
+    .about-us-container {
+        margin: 20px;
+        width: 93%;
+    }
+    
+    .container {
+        padding: 30px ;
+        margin: auto;
+    }
+    .bottomMenu {
+      /* display: none; */
+      font-size: small;
+
+    }
+  }
