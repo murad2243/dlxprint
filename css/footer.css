@@ -8,7 +8,7 @@
   }
   .main-footer{
     background-image: url("../images/bg_footer-map.webp");
-    width: 100%;
+    /* background-image: repeating-linear-gradient(135deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),repeating-linear-gradient(22.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),linear-gradient(90deg, hsl(194,74%,56%),hsl(266,74%,56%),hsl(338,74%,56%),hsl(50,74%,56%),hsl(122,74%,56%));    width: 100%; */
     color: #aaa;
     font-size: 0.9rem;
     line-height: 20px;
@@ -37,7 +37,7 @@
   .btn-template-main{
     background-color: #d93800;
     border-radius: 20px;
-    margin: 10px auto;
+    margin: 5px  !important ;   
     color: white !important;
   }
   .btn-template-main:hover{

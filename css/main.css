@@ -12,6 +12,27 @@
 p,h1,h2,h3,h4,h5,h6,div,img{
   margin:0;
 }
+.a-black a{
+  color: black !important;
+}
+.bg-primary {
+  background: #F3F3F3 !important;
+  /* color: white !important; */
+}
+.img-border img{
+  padding: 5px;
+  border-radius: 5px;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; */
+}
+.div-bottom-border  div{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E5E5E5;
+}
+.div-bottom-border  div:hover{
+  border-bottom: 1px solid black;
+  
+}
+
 .theme-btn{
     background-color: #d93800;
     border-radius: 20px;
@@ -40,7 +61,8 @@ p,h1,h2,h3,h4,h5,h6,div,img{
     /* background-color: #d93800; */
     border-radius: 20px;
     display: block;
-    margin: 10px auto;
+    width: fit-content;
+    margin: 10px 0;
     border: 1px solid #d93800;
     color: #d93800 !important;
   }
@@ -64,9 +86,10 @@ p,h1,h2,h3,h4,h5,h6,div,img{
     width: 60px;
     height: 3px;
     margin: auto;
-    margin-top: 0.2rem;
+    margin-top: 10px;
     background: #d93800;    
 }
+
 ::selection {
 color: white;
 background: #d93800;
@@ -76,7 +99,7 @@ background: #d93800;
 
 .div-dot:after{
 	content: "";
-	position: absolute;
+	/* position: absolute; */
 	z-index: 1;
 	top: -9px;
 	left: calc(50% - 9px);
@@ -93,7 +116,7 @@ background: #d93800;
 }
 
 .divider{
-	position: relative;
+	/* position: relative; */
 	/* margin-top: 90px; */
 	height: 1px;
     margin: 20px auto;
@@ -149,7 +172,9 @@ background: #d93800;
       font-size: small;
       color: #343a40 !important;
     }
-
+    .h5-mobile h5{
+      font-size: medium;
+    }
 }
 
 @media (min-width: 770px) and (max-width: 1350px){

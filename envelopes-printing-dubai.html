@@ -217,7 +217,7 @@
                   <form name="form1" method="get" action="#">
                           
                       <div class="form-group">
-                          <label style="font-size: 16px;color: #D93800; font-weight: bold">Quantity: </label>
+                          <label style="font-size: 16px;color: #D93800; font-weight: bold">Size: </label>
                           <select id="size" class="form-control" name="sizeSelect" onchange="updatePrice()">
                               <option value="0">--Select--</option>
                               <option value="DL">DL Size (Envelope-011)</option>
@@ -761,7 +761,29 @@
                 document.getElementById("totalValue").innerHTML = parseInt("0");
             }
     }
-      
+    // code for tabs 
+function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+openCity("click","price")
+
 
     var swiper = new Swiper(".mySwiper", {
       slidesPerView: 5,

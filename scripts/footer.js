@@ -1,5 +1,5 @@
-const footerDiv = document.getElementById("footer-div")
-if(footerDiv !== null && footerDiv !== undefined){
+if(document.getElementById("footer-div") !== null && document.getElementById("footer-div") !== undefined){
+  const footerDiv = document.getElementById("footer-div")
 
 footerDiv.innerHTML=`
 <footer class="main-footer">

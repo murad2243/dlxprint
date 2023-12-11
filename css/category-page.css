@@ -40,6 +40,13 @@
     margin-bottom: 20px;
     /* text-align: center; */
 }
+.header-banner{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* margin-top: -20px; */
+}
 @media (min-width:200px) and (max-width: 769px) {
     .about-us-container{
         font-size: smaller;
@@ -68,6 +75,12 @@
     .products-container h2{
         font-size: medium;
     }
+    .header-banner{
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+        /* display: none; */
+      }
 }
 @media (min-width: 770px) and (max-width: 1350px){
     .products-container h2{
@@ -77,5 +90,11 @@
         display:  grid;
         gap: 10px;
         grid-template-columns: repeat(3,1fr);
+    }
+    .header-banner{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
     }
 }
