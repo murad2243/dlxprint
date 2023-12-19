@@ -12,6 +12,9 @@
     height: 40px;
     margin: 5px 0px;
 }
+.nav-opt > ul{
+    margin-left: 0px;
+}
 .contact-container{
     position: sticky;
     width: 100%;
@@ -311,8 +314,8 @@ padding: 0 0 0 10px;
     border-radius: 5px;
 }
 .home-link:hover{
-    background-color:#d93800;
-    color: white ;
+    background-color:#d93800 !important;
+    color: white !important;
     /* padding: 15px; */
     /* height: 100%; */
 }
@@ -443,6 +446,7 @@ padding: 0 0 0 10px;
         width: 90%;
         font-size: small;
     }
+   
     .search-container {
         height: 35px;
     }
@@ -572,7 +576,10 @@ padding: 0 0 0 10px;
         padding-top: 5px;
     
     }
-
+    .breadcrumb-container{
+        background-color: transparent;
+        margin-bottom: -25px;
+    }
 }
 
 /* tablet view */
@@ -592,7 +599,11 @@ padding: 0 0 0 10px;
         font-weight: 600;
         font-size: 12px;
     }
-
+    .form-inline > input{
+        /* width: 100px !important; */
+        font-size: smaller !important;
+        /* border: 1px solid black; */
+    }
 	/* .navbar .nav-item:hover .nav-link{
          background-color: #d93800;
          color: white;

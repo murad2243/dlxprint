@@ -10,13 +10,15 @@
     /* outline: 1px solid limegreen !important; */
 }
 :root {
-  --swiper-navigation-size: 35px !important;
+  --swiper-navigation-size: 30px !important;
   --swiper-theme-color: black !important
 }
 ul{
   margin-left: 20px;
 }
-
+option:hover{
+  background-color: #d93800 !important;
+}
 p,h1,h2,h3,h4,h5,h6,div,img{
   margin:0;
 }
@@ -32,10 +34,11 @@ a{
 }
 a:hover{
   text-decoration: none;
+  color: #d93800;
 }
 .products-heading{
   max-width: 1300px;
-  margin: 15px auto;
+  margin: 10px auto;   
   font-weight: 600;
   /* text-align: center; */
   font-size: x-large;
@@ -206,7 +209,7 @@ color: #999;
 
   }
 
-  .product-div > button{
+  .product-div  button{
     border: 1px solid #343a40;
     color: #343a40;
     /* font-weight: 600; */
@@ -334,13 +337,15 @@ color: #999;
     top: 40% !important;
     /* left: 0px !important; */
     padding: 20px !important;
+    font-weight: 800;
     /* opacity: 0.4 !important; */
     /* background-color: #F3F3F3; */
     border-radius: 50%;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
   }
-  .swiper-btn:hover{
+  /* .swiper-btn:hover{
     opacity: 1 !important;
-  }
+  } */
   .four-grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -429,6 +434,18 @@ color: #999;
 .box-white  h4{
   font-size: large;
   text-align: center;
+}
+.products-big img:hover{
+  scale: 0.9;
+  transition: 0.3s !important;
+}
+.footer-section-qr{
+  text-align: center; 
+  background-color: #F3F3F3; 
+  padding: 20px; 
+  display: flex; 
+  justify-content: center; 
+  gap: 40px; 
 }
 @media (min-width:200px) and (max-width: 769px) {
   :root {
@@ -541,6 +558,12 @@ color: #999;
       gap: 10px;
       text-align: center;
       font-size: smaller;
+    }
+    .footer-section-qr{
+      padding: 20px; 
+      flex-direction: column;
+      gap: 20px; 
+      font-size: smaller;      
     }
   }
   @media (min-width: 770px) and (max-width: 1350px){

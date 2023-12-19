@@ -45,7 +45,7 @@ p,h1,h2,h3,h4,h5,h6,div,img{
     display: block;
     /* padding: 5px 10px; */
     padding: 0.25rem 0.5rem;
-    margin: 10px auto;
+    margin: 10px 0px;
     border: 1px solid #343a40;
     color: #343a40 !important;
   }
@@ -151,6 +151,21 @@ background: #d93800;
   height: 600px;
 }
 
+.section-heading{
+  /* font-weight: 400; */
+  font-size: 32px;
+  /* width: fit-content; */
+  /* margin: auto; */
+  margin-bottom: 20px;
+  /* text-align: center; */
+}
+.products-heading{
+  max-width: 1300px;
+  margin: 10px auto;   
+  font-weight: 600;
+  /* text-align: center; */
+  font-size: x-large;
+}
 @media (min-width:200px) and (max-width: 769px) {
   .theme-btn{
     background-color: #d93800;
@@ -159,6 +174,14 @@ background: #d93800;
     margin: 10px auto;
     font-size: small !important;
     color: white !important;
+  }
+  .them-outline-btn{
+    /* background-color: #d93800; */
+    font-size: small !important;
+  }
+  .them-outline-btn{
+    /* background-color: #d93800; */
+    font-size: small !important;
   }
     
     .container{
@@ -175,6 +198,15 @@ background: #d93800;
     .h5-mobile h5{
       font-size: medium;
     }
+    .section-heading{
+      /* font-weight: 400; */
+      font-size: large;
+      width: fit-content;
+      /* margin: auto; */
+      margin-bottom: 10px;
+      /* text-align: center; */
+  }
+    
 }
 
 @media (min-width: 770px) and (max-width: 1350px){
