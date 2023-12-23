@@ -206,6 +206,12 @@ background: #d93800;
       margin-bottom: 10px;
       /* text-align: center; */
   }
+  .divider{
+    /* position: relative; */
+    /* margin-top: 90px; */
+    height: 1px;
+      margin: 10px auto;
+  }
     
 }
 
