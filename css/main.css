@@ -12,6 +12,7 @@
 p,h1,h2,h3,h4,h5,h6,div,img{
   margin:0;
 }
+
 .a-black a{
   color: black !important;
 }
@@ -153,7 +154,7 @@ background: #d93800;
 
 .section-heading{
   /* font-weight: 400; */
-  font-size: 32px;
+  font-size: x-large;
   /* width: fit-content; */
   /* margin: auto; */
   margin-bottom: 20px;

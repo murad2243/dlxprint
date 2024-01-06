@@ -276,6 +276,9 @@
 
 /* ============ mobile view ============ */
 @media (min-width:200px) and (max-width: 769px) {
+  .heading-padding{
+    margin-left: 10px !important;
+  }
 	.overview-div{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -368,6 +371,12 @@
 }
 /* tablet view */
 @media (min-width: 770px) and (max-width: 1350px){ 
+  .heading-padding{
+    margin-left: 30px !important;
+  }
+  .carousel {
+    margin: 30px;
+    }
     .flickity-button {
         scale: 0.6;
         margin-top: -20px;

@@ -263,7 +263,7 @@ function navbar(){
 
                         </div>
                         <div class="dropdown-class desktop-view">
-                          <!-- <a href="digital-printing-services-dubai.html" class="nav-opt-heading">Print & Marketing</a> -->
+                          <a href="digital-printing-services-dubai.html" class="nav-opt-heading">Print & Marketing</a>
                           <a href="digital-printing-services-dubai.html" class="nav-sub-heading" >Stationery & Corporate Identity</a>
                           <a onmouseenter="handleNavImage(event,'images/navbarImages/business_cards.webp','BUSSINESS CARDS')" href="digital-business-cards.html"> Bussiness Cards</a>
                           <a onmouseenter="handleNavImage(event,'images/navbarImages/letterheads.webp')" href="letter-heads-printing-dubai.html"> letterheads</a>
@@ -348,120 +348,120 @@ function navbar(){
                  </div>
                </li>
                <li class="nav-item dropdown">
-                 <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Fabric & Fashion</a>
-                 <div class="dropdown-menu">
-                   <div class="submenu">
-                    <div class="submenu-info">
-                      <div class="dropdown-class">
-                        <a href="fabric-and-fashion-printing-dubai.html" class="nav-opt-heading" >Textile Printing </a>
-                        <p class="nav-sub-heading">Fashion</p>
-                        <a href="#">Scarf</a>
-                        <a href="#">Sheila</a>
-                        <a href="#">Bandana</a>
-                        <a href="#">Hair Scarf</a>
-                        <a href="#">Abaya</a>
-                        <a href="#">Sarong</a>
-                        <a href="#">Beach Shorts</a>
-                        <a href="#">Pocket Handkerchief</a>
-                        <a href="#">Scrunchie</a>
-                        <a href="#">Bag Scarf</a>
-                      </div>
-                      <div class="dropdown-class">
-                      <p class="nav-sub-heading" >Soft Furnishing </p>
-                      <a href="#">Decarative Pillows</a>
-                      <a href="#">Floor Cushion</a>
-                      <a href="#">Tiny Cushion</a>
-                      <a href="#">Bolster Pillow</a>
-                      <a href="#">Bean Bags</a>
-                      <a href="#">Blanket</a>
-                      <a href="#">Fabric Wrap</a>
-                      <p class="nav-sub-heading">Dining</p>
-                      <a href="#">Placemat</a>
-                      <a href="#">Table Napkin</a>
-                      <a href="#">Dinning Table Cloth</a>
-                      </div>
-                      <div class="dropdown-class">
-                      <p class="nav-sub-heading" >Lifestyle </p>
-                      <a href="#">Armband</a>
-                      <a href="#">Sash</a>
-                      <a href="#">Umbrella</a>
-                      <a href="#">Face Masks</a>
-                      <a href="#">Arron</a>
-                      <p class="nav-sub-heading">Pouches</p>
-                      <a href="#">Drawstring Pouches</a>
-                      <p class="nav-sub-heading">Fabric Range</p>
-                      <p class="nav-sub-heading">Patterns</p>
-                      </div>
+               <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Fabric & Fashion</a>
+               <div class="dropdown-menu">
+                 <div class="submenu">
+                  <div class="submenu-info">
+                    <div class="dropdown-class">
+                      <a href="fabric-and-fashion-printing-dubai.html" class="nav-opt-heading" >Textile Printing </a>
+                      <a href="fabric-and-fashion-printing-dubai.html#fashion" class="nav-sub-heading">Fashion</a>
+                      <a href="scarf-fashion-dubai.html">Scarf</a>
+                      <a href="sheila-fashion-dubai.html">Sheila</a>
+                      <a href="bandana-fashion-dubai.html">Bandana</a>
+                      <a href="hair-scarf-printing-dubai.html">Hair Scarf</a>
+                      <a href="abaya-fashion-dubai.html">Abaya</a>
+                      <a href="sarong-fashion-dubai.html">Sarong</a>
+                      <a href="beach-shorts-fashion-dubai.html">Beach Shorts</a>
+                      <a href="pocket-handkerchief-fashion-dubai.html">Pocket Handkerchief</a>
+                      <a href="scrunchies-fashion-dubai.html">Scrunchie</a>
+                      <a href="bag-scraf-fashion-dubai.html">Bag Scarf</a>
                     </div>
                     <div class="dropdown-class">
-                      <div class="nav-img-container">
-                        <img class="navbar-img" id="nav-img" src="images/navbarImages/business_cards.webp" alt="Printing in Dubai">
-                        <h6 class="navbar-img-text" id="nav-img-text">Bussiness Cards</h6>
+                    <a href="fabric-and-fashion-printing-dubai.html#softfurnishing" class="nav-sub-heading" >Soft Furnishing </a>
+                    <a href="soft-furnish-pillow-cushion-printing-dubai.html">Decarative Pillows</a>
+                    <a href="soft-furnish-pillow-cushion-printing-dubai.html#floor_cushion">Floor Cushion</a>
+                    <a href="soft-furnish-pillow-cushion-printing-dubai.html#floor_cushion">Tiny Cushion</a>
+                    <a href="soft-furnish-pillow-cushion-printing-dubai.html#bolster_pillow">Bolster Pillow</a>
+                    <a href="soft-furnish-bean-bag-dubai.html">Bean Bags</a>
+                    <a href="blanket-soft-furnish-dubai.html">Blanket</a>
+                    <a href="fabric-wrap-dubai.html">Fabric Wrap</a>
+                    <a href="fabric-and-fashion-printing-dubai.html#dining" class="nav-sub-heading">Dining</a>
+                    <a href="dining-table-placemat-dubai.html">Placemat</a>
+                    <a href="table-napkin-dubai.html">Table Napkin</a>
+                    <a href="dining-table-cloth-dubai.html">Dinning Table Cloth</a>
+                    </div>
+                    <div class="dropdown-class">
+                    <a href="fabric-and-fashion-printing-dubai.html#lifestyle" class="nav-sub-heading" >Lifestyle </a>
+                    <a href="armband-printing-dubai.html">Armband</a>
+                    <a href="sash-fashion-dubai.html">Sash</a>
+                    <a href="hand-umbrella-printing-dubai.html">Umbrella</a>
+                    <a href="custom-face-mask-dubai.html#smartfit">Face Masks</a>
+                    <a href="dining-apron-dubai.html">Apron</a>
+                    <a href="fabric-and-fashion-printing-dubai.html#pouches" class="nav-sub-heading">Pouches</a>
+                    <a href="adraw-string-pouches-dubai.html">Drawstring Pouches</a>
+                    <a href="all-fabrics-printing-dubai.html" class="nav-sub-heading">Fabric Range</a>
+                    <a href="all-pattern-templates.html" class="nav-sub-heading">Patterns</a>
+                    </div>
+                  </div>
+                  <div class="dropdown-class">
+                    <div class="nav-img-container">
+                      <img class="navbar-img" id="nav-img" src="images/navbarImages/business_cards.webp" alt="Printing in Dubai">
+                      <h6 class="navbar-img-text" id="nav-img-text">Bussiness Cards</h6>
+                    </div>
+                    <h6>Most Popular</h6>
+                    <div class="nav-products">
+                      <div>
+                        <img src="images/navbarImages/binding.webp" alt="Binding in Dubai">
+                        <p>Binding</p>
                       </div>
-                      <h6>Most Popular</h6>
-                      <div class="nav-products">
-                        <div>
-                          <img src="images/navbarImages/binding.webp" alt="Binding in Dubai">
-                          <p>Binding</p>
-                        </div>
-                        <div>
-                          <img src="images/navbarImages/business_cards.webp" alt="Business Cards Printing in Dubai">
-                          <p>Business Cards</p>
-                        </div>
-                        <div>
-                          <img src="images/navbarImages/envelopes.webp" alt="Business Cards in DubaiEnvelopes Printing in Dubai">
-                          <p>Envelopes</p>
-                        </div>
+                      <div>
+                        <img src="images/navbarImages/business_cards.webp" alt="Business Cards Printing in Dubai">
+                        <p>Business Cards</p>
+                      </div>
+                      <div>
+                        <img src="images/navbarImages/envelopes.webp" alt="Business Cards in DubaiEnvelopes Printing in Dubai">
+                        <p>Envelopes</p>
                       </div>
                     </div>
-                    </div>
-                 </div>
-               </li>
+                  </div>
+                  </div>
+               </div>
+             </li>
                <li class="nav-item dropdown">
                  <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Office & Store Branding </a>
                  <div class="dropdown-menu" style="margin-left: -100px;">
                   <div class="submenu">
                    
-                   <div class="submenu-info">
-                    <div class="dropdown-class">
-                      <p class="nav-opt-heading" >Office & Store Branding </p>
-                      <p class="nav-sub-heading">Frosted Sticker</p>
-                      <a href="#">Reserse Cut Frosted Sticker</a>
-                      <a href="#">Standard Cut Frosted Sticker</a>
-                      <a href="#">Printed Frosted Sticker</a>
-                      <a href="#">Blank Frosted Sticker</a>
-                      <p class="nav-sub-heading">Window Branding</p>
-                      <a href="#">Window Vinyl Letterning</a>
-                      <a href="#">Window Graphics</a>
-                      <a href="#">One Way Vision Sticker</a>
-                      <a href="#">Window Films</a>
-                      <p class="nav-sub-heading">Floor Sticekr</p>
-                  </div>
+                  <div class="submenu-info">
                   <div class="dropdown-class">
-                    <p class="nav-sub-heading" >Wall Branding </p>
-                    <a href="#">Wall Vinyl Lettering</a>
-                    <a href="#">Wall Graphics</a>
-                    <p class="nav-sub-heading">Wall Décor</p>
-                    <a href="#">Home Wallpaper</a>
-                    <p class="nav-sub-heading">Wall frames</p>
-                    <a href="#">Canvas</a>
-                    <a href="#">Wooden</a>
-                    <a href="#">Acrylic</a>
-                    <a href="#">Metal Art</a>
-                    <p class="nav-sub-heading">Posters</p>
-                    <a href="#">Repositionable Cling</a>
-                  </div>
-                  <div class="dropdown-class">
-                    <p class="nav-sub-heading" >Workplace </p>
-                    <a href="#">Desk Partition</a>
-                    <p class="nav-sub-heading" href="#">Vehicle Graphics</p>
-                    <a href="#">Car Door</a>
-                    <a href="#">Half Wrap Vehicle</a>
-                    <a href="#">Van Branding</a>
-                    <p class="nav-sub-heading">Magnetic Sheet</p>
-                    <p class="nav-sub-heading">Ceremonial Ribbon</p>
-                  </div>
-                   </div>
+                    <a href="office-store-branding-printing-dubai.html" class="nav-opt-heading" >Office & Store Branding </a>
+                    <a href="office-store-branding-printing-dubai.html" class="nav-sub-heading">Frosted Sticker</a>
+                    <a href="frosted-glass-sticker.html#reverse_cut">Reserse Cut Frosted Sticker</a>
+                    <a href="frosted-glass-sticker.html#standard_cut">Standard Cut Frosted Sticker</a>
+                    <a href="frosted-glass-sticker.html#printed">Printed Frosted Sticker</a>
+                    <a href="frosted-glass-sticker.html#blank">Blank Frosted Sticker</a>
+                    <a href="office-store-branding-printing-dubai.html#window_branding" class="nav-sub-heading">Window Branding</a>
+                    <a href="window-vinyl-lettering-dubai.html">Window Vinyl Letterning</a>
+                    <a href="window-graphics-dubai.html">Window Graphics</a>
+                    <a href="one-way-vision-sticker-dubai.html">One Way Vision Sticker</a>
+                    <a href="decorative-window-film-dubai.html">Window Films</a>
+                    <a href="office-store-branding-printing-dubai.html#floor_sticker" class="nav-sub-heading">Floor Sticekr</a>
+                </div>
+                <div class="dropdown-class">
+                  <a href="office-store-branding-printing-dubai.html#wallbranding" class="nav-sub-heading" >Wall Branding </a>
+                  <a href="wall-vinyl-lettering-dubai.html">Wall Vinyl Lettering</a>
+                  <a href="wall-graphics-dubai.html">Wall Graphics</a>
+                  <a href="office-store-branding-printing-dubai.html#walldecor" class="nav-sub-heading">Wall Décor</a>
+                  <a href="wallpaper-printing-dubai.html">Home Wallpaper</a>
+                  <a href="office-store-branding-printing-dubai.html#canvas" class="nav-sub-heading">Wall frames</a>
+                  <a href="canvas-printing-dubai.html">Canvas</a>
+                  <a href="wooden-frames-printing-dubai.html">Wooden</a>
+                  <a href="acrylic-frames-printing-dubai.html">Acrylic</a>
+                  <a href="metal-frames-printing-dubai.html">Metal Art</a>
+                  <a href="office-store-branding-printing-dubai.html#posters" class="nav-sub-heading">Posters</a>
+                  <a href="office-store-branding-printing-dubai.html#repositionable_cling">Repositionable Cling</a>
+                </div>
+                <div class="dropdown-class">
+                  <a href="office-store-branding-printing-dubai.html#workplace" class="nav-sub-heading" >Workplace </a>
+                  <a href="social-distancing-screen-divider-dubai.html">Desk Partition</a>
+                  <a href="office-store-branding-printing-dubai.html#vehicle_graphics" class="nav-sub-heading" href="#">Vehicle Graphics</a>
+                  <a href="vehicle-branding-dubai.html">Car Door</a>
+                  <a href="vehicle-branding-dubai.html#half_wrap">Half Wrap Vehicle</a>
+                  <a href="vehicle-branding-dubai.html#bus_branding">Van Branding</a>
+                  <a href="magnetic-sheet-printing-dubai.html" class="nav-sub-heading">Magnetic Sheet</a>
+                  <a href="ceremonial_ribbons_dubai.html" class="nav-sub-heading">Ceremonial Ribbon</a>
+                </div>
+                 </div>
                    <div class="dropdown-class">
                     <div class="nav-img-container">
                       <img class="navbar-img" id="nav-img" src="images/navbarImages/business_cards.webp" alt="Business Cards in Dubai">
@@ -998,6 +998,9 @@ navbar()
 //     }
 //     // end if innerWidth
 //     }); 
+
+
+
 function handleNavImage(event,url){
     // console.log(event.target.innerText)
     let img = document.getElementById("nav-img")
@@ -1008,6 +1011,11 @@ function handleNavImage(event,url){
 
     // console.log(url)
 }
+
+let ul = document.getElementById("search-list");
+let li = ul.getElementsByTagName("li");
+// let selected = 0;
+
 function handleSearch(search){
     // console.log("search", search)
 
@@ -1017,21 +1025,40 @@ function handleSearch(search){
     if(search === ""){
         searchResult.style.visibility = "hidden";
     }
-    var  filter, ul, li, a, i;
+
+    var  filter, a, i;
     input = document.getElementById("mySearch");
     filter = search.toUpperCase();
-    ul = document.getElementById("search-list");
-    li = ul.getElementsByTagName("li");
+    
     // Loop through all list items, and hide those who don't match the search query
+    let count=0;
     for (i = 0; i < li.length; i++) {
       a = li[i].getElementsByTagName("a")[0];
       if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
         li[i].style.display = "";
       } else {
         li[i].style.display = "none";
+        // li[i].remove();
+        count++;
       }
     }
+    if(count >= li.length){
+      // searchResult.innerHTML = null
+      console.log(count, li.lengthf)
+      document.getElementById("product-not-found").style.display= "block";
+    }
+    else{
+      document.getElementById("product-not-found").style.display= "none";
+    }
+    // selectSearch()
 }
+
+// function selectSearch(){
+//   li[selected].style.background= "#c9c9c9"
+//   console.log(document.getElementById("search-list"))
+// }
+
+
 window.addEventListener('mouseup',function(event){
     let searchright = document.getElementById("searchright")
     let searchResult = document.getElementById("search-result")
